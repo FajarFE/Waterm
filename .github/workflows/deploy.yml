@@ -1,0 +1,37 @@
+# .github/workflows/deploy.yml
+
+name: Deploy to Production
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup SSH
+        uses: webfactory/ssh-agent@v0.9.0
+        with:
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+
+      - name: Deploy to Server
+        env:
+          SERVER_HOST: ${{ secrets.SERVER_HOST }}
+          SERVER_USER: ${{ secrets.SERVER_USER }}
+          PROJECT_PATH: ${{ secrets.PROJECT_PATH_ON_SERVER }}
+          COMPOSE_PROJECT_NAME: skripsi
+        run: |
+          # Add server to known hosts
+          ssh-keyscan -H $SERVER_HOST >> ~/.ssh/known_hosts
+
+          # Deploy command
+          ssh $SERVER_USER@$SERVER_HOST "cd $PROJECT_PATH && \
+            git pull origin main && \
+            echo '${{ secrets.DOTENV_FILE_CONTENT }}' > .env && \
+            chmod 600 .env && \
+            docker-compose down && \
+            docker-compose up -d --build"

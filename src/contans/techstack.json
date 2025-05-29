@@ -1,0 +1,38 @@
+[
+  {
+    "name": "nx",
+    "icons": "logos:nx"
+  },
+  {
+    "name": "tyepscript",
+    "icons": "devicon:typescript"
+  },
+  {
+    "name": "nextjs",
+    "icons": "devicon:nextjs"
+  },
+  {
+    "name": "bun",
+    "icons": "devicon:bun"
+  },
+  {
+    "name": "docker",
+    "icons": "devicon:docker"
+  },
+  {
+    "name": "expressjs",
+    "icons": "lineicons:expressjs"
+  },
+  {
+    "name": "prisma",
+    "icons": "devicon:prisma"
+  },
+  {
+    "name": "neon",
+    "icons": "logos:neon-icon"
+  },
+  {
+    "name": "tailwind",
+    "icons": "devicon:tailwindcss"
+  }
+]

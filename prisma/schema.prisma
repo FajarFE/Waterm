@@ -1,0 +1,108 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id              String        @id @default(cuid())
+  name            String?
+  email           String        @unique
+  password        String?
+  emailVerified DateTime?
+  verificationToken String?
+  verificationExpiry DateTime?
+  resetToken        String?
+  resetTokenExpiry  DateTime?
+  socketToken String?
+  image           String?
+  createdAt       DateTime      @default(now())
+  updatedAt       DateTime      @updatedAt
+  accounts        Account[]
+  sessions        Session[]
+  noWhatsapp String?
+  idTelegram String?
+  limitation Limitation[]
+  monitoring Monitoring[]
+}
+
+model Account {
+  userId            String
+  type              String
+  provider          String
+  providerAccountId String
+  refresh_token     String?
+  access_token      String?
+  expires_at        Int?
+  token_type        String?
+  scope             String?
+  id_token          String?
+  session_state     String?
+  createdAt         DateTime @default(now())
+  updatedAt         DateTime @updatedAt
+  user              User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  @@id([provider, providerAccountId])
+}
+
+model Session {
+  sessionToken String   @unique
+  userId       String
+  expires      DateTime
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+enum CategoryFish {
+  Lele
+  Gurame
+  Arwana
+  Nila
+  Mas
+}
+
+model Limitation {
+  id String @id @default(cuid())
+  name String
+  category CategoryFish
+  maxPh Float
+  minPh Float
+  maxTemperature Float
+  minTemperature Float
+  maxTurbidity Float
+  minTurbidity Float
+  userId       String
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+  monitoring Monitoring[]
+
+}
+
+model Monitoring {
+  id String @id @default(cuid())
+  nameMonitoring String
+  codeDevices String
+  locationDevices String
+  userId       String
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  limitId String
+  limit         Limitation     @relation(fields: [limitId], references: [id], onDelete: Cascade)
+  dataMonitoring DataMonitoring[]
+}
+
+model DataMonitoring {
+  id  String        @id @default(cuid())
+  PHWater Float
+  TemperatureWater Float
+  TurbidityWater Float
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+  monitoringId String
+  monitorings Monitoring @relation(fields: [monitoringId],references: [id],onDelete: Cascade)
+}
+
+

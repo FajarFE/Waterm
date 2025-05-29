@@ -1,0 +1,1087 @@
+{
+  "title": "Monitor Your Website Globally & in Real-Time",
+  "description": "Ensure your website's performance and uptime from various devices and locations worldwide. Get accurate insights, detect problems faster, and optimize user experience with multi-device & multi-geolocation monitoring.",
+  "settings": "Settings",
+  "logout": "Logout",
+  "profile": "Profile",
+  "techStack": "Technology Stack",
+  "service": {
+    "title": "Our Services",
+    "description": "Enjoy the best services to simplify your work, including:",
+    "service": {
+      "Monitoring": "Real-time Monitoring: Monitor sensor data directly without delay.",
+      "MultiGeologi": "Multi-Geolocation: Get deeper analysis with support for various geographic locations.",
+      "Notification": "Notifications: Receive instant notifications about the latest data or important conditions.",
+      "Report": "Reports: Access complete and easy-to-understand reports for further analysis."
+    }
+  },
+  "Documentasi": {
+    "title": "Documentation",
+    "description": "A complete guide to maximizing the use of our system. Find information about features, settings, and how to integrate your devices.",
+    "data": [
+      {
+        "id": "1",
+        "title": "Usage",
+        "description": "How to use our system.",
+        "steps": [
+          {
+            "title": "Register",
+            "description": "Register and create an account.",
+            "image": "/"
+          },
+          {
+            "title": "Login",
+            "description": "Connect your device."
+          },
+          {
+            "title": "Create Limits",
+            "description": "Start monitoring sensor data."
+          },
+          {
+            "title": "Device Integration",
+            "description": "Start monitoring sensor data."
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "title": "Installation",
+        "description": "Guide to installing devices and applications.",
+        "steps": [
+          {
+            "title": "Download Application",
+            "description": "Download the application from official sites like Arduino IDE."
+          },
+          {
+            "title": "Install Application",
+            "description": "Follow the installation instructions in the application."
+          },
+          {
+            "title": "Upload Code to Device",
+            "description": "Complete the installation and start using."
+          },
+          {
+            "title": "Integration",
+            "description": "Complete the installation and start using."
+          }
+        ]
+      },
+      {
+        "id": "3",
+        "title": "Integration",
+        "description": "How to integrate devices with our system.",
+        "steps": [
+          {
+            "title": "Step 1",
+            "description": "Get the integration code from the application."
+          },
+          {
+            "title": "Step 2",
+            "description": "Enter the code into your device."
+          },
+          {
+            "title": "Step 3",
+            "description": "Verify the connection and start monitoring."
+          }
+        ]
+      },
+      {
+        "id": "4",
+        "title": "Notifications",
+        "description": "How to set up notifications for your device.",
+        "steps": [
+          {
+            "title": "Step 1",
+            "description": "Open notification settings in the application."
+          },
+          {
+            "title": "Step 2",
+            "description": "Choose the desired notification type."
+          },
+          {
+            "title": "Step 3",
+            "description": "Save settings and activate notifications."
+          }
+        ]
+      },
+      {
+        "id": "5",
+        "title": "Reports",
+        "description": "How to download and analyze reports.",
+        "steps": [
+          {
+            "title": "Step 1",
+            "description": "Open the reports section in the application."
+          },
+          {
+            "title": "Step 2",
+            "description": "Select the desired time period."
+          },
+          {
+            "title": "Step 3",
+            "description": "Download the report in the desired format."
+          }
+        ]
+      }
+    ]
+  },
+  "device": {
+    "code": {
+      "title": "Code",
+      "description": "Code For Device"
+    },
+    "designDevice": {
+      "title": "Device Design",
+      "description": "Device Design"
+    }
+  },
+  "welcomeMessage": "Welcome to Our Monitoring System",
+  "LocaleSwitcher": {
+    "id": "Indonesian",
+    "en": "English",
+    "label": "EN"
+  },
+  "theme": {
+    "label": "Theme",
+    "light": "Light",
+    "dark": "Dark"
+  },
+  "sidebar": {
+    "menus": {
+      "about": "About",
+      "service": "Services",
+      "tutorial": "Tutorial"
+    },
+    "signIn": "Sign In",
+    "started": "Get Started"
+  },
+  "heroSection": {
+    "title": "Monitor sensor data in real-time easily and quickly.",
+    "description": "Enjoy the experience of monitoring and managing sensor data directly with our easy-to-use application.",
+    "button": "Get Started Now"
+  },
+  "serverAction": {
+    "monitoring": {
+      "createMonitoring": {
+        "success": "Successfully created monitoring data",
+        "error": "Failed to create monitoring data",
+        "serverError": "A server error occurred, please try again",
+        "userNotFound": "User not found"
+      },
+      "deleteMonitoring": {
+        "success": "Successfully deleted monitoring data",
+        "error": "Failed to delete monitoring data",
+        "serverError": "A server error occurred, please try again",
+        "userNotFound": "User not found"
+      }
+    },
+    "limit": {
+      "userNotFound": "User not found",
+      "createLimit": {
+        "success": "Successfully created limit",
+        "error": "Failed to create limit",
+        "serverError": "A server error occurred, please try again"
+      },
+      "deleteLimit": {
+        "success": "Successfully deleted limit",
+        "error": "Failed to delete limit",
+        "serverError": "A server error occurred, please try again"
+      },
+      "updateLimit": {
+        "success": "Successfully updated limit",
+        "error": "Failed to update limit",
+        "serverError": "A server error occurred, please try again",
+        "userNotFound": "User not found"
+      }
+    },
+    "signUp": {
+      "success": "Successfully registered",
+      "error": "Failed to register",
+      "serverError": "A server error occurred, please try again",
+      "emailAlreadyExist": "Email already registered"
+    },
+    "verifyEmail": {
+      "sendOTPEmail": {
+        "success": "Verification email sent successfully, please check your email",
+        "error": "Failed to send verification email, please try again",
+        "serverError": "A server error occurred, please try again",
+        "emailAlreadyExist": "Email already registered",
+        "userNotFound": "User not found"
+      },
+      "verify": {
+        "success": "Email verified successfully",
+        "error": "Failed to verify email, please try again",
+        "errorExpired": "OTP code has expired, please resend",
+        "errorOTP": "Invalid OTP code",
+        "serverError": "A server error occurred, please try again",
+        "userNotFound": "User not found"
+      },
+      "sendOTPForgotPassword": {
+        "success": "Successfully sent email to reset password",
+        "errorSignature": "Signature does not match",
+        "errorExpired": "OTP code has expired, please resend",
+        "errorOtp": "Invalid OTP code",
+        "error": "Failed to send email to reset password, please try again",
+        "serverError": "A server error occurred, please try again",
+        "userNotFound": "User not found"
+      }
+    }
+  },
+  "dashboard": {
+    "layout": {
+      "sidebar": {
+        "menus": [
+          {
+            "name": "Dashboard",
+            "icon": "LuLayoutGrid",
+            "data": [
+              {
+                "link": "monitoring",
+                "name": "Monitoring",
+                "icons": "MdInsights"
+              },
+              {
+                "link": "limitations",
+                "name": "Limitations",
+                "icons": "MdInsights"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "toast": {
+      "monitoring": {
+        "addDevice": {
+          "noLimit": "Limit data is not yet available, please create limit data first {link}",
+          "notVerify": "Account has not been verified, please verify your account."
+        }
+      }
+    },
+    "emailVerification": {
+      "warning": "Email Not Verified",
+      "verifyLink": "Click here to verify email"
+    },
+    "limitations": {
+      "form": {
+        "edit": {
+          "title": "Edit Limit",
+          "description": "Change the limit according to your needs",
+          "buttonEdit": "Edit Limit"
+        },
+        "create": {
+          "title": "Create Limit",
+          "description": "Create a new limit according to your needs",
+          "buttonCreate": "Create Limit"
+        },
+        "buttonCancel": "Cancel"
+      },
+      "fields": {
+        "name": {
+          "label": "Fish Name",
+          "placeholder": "Select Fish",
+          "validator": "Fish category is required"
+        },
+        "maxPh": {
+          "label": "Maximum pH",
+          "placeholder": "Enter maximum pH value",
+          "validator": {
+            "isRequired": "Maximum pH is required",
+            "isNumber": "Maximum pH must be a number",
+            "refine": "Maximum pH must be greater than or equal to minimum pH"
+          }
+        },
+        "minPh": {
+          "label": "Minimum pH",
+          "placeholder": "Enter minimum pH value",
+          "validator": {
+            "isRequired": "Minimum pH is required",
+            "isNumber": "Minimum pH must be a number",
+            "refine": "Minimum pH must be less than or equal to maximum pH"
+          }
+        },
+        "maxTemperature": {
+          "label": "Maximum Temperature",
+          "placeholder": "Enter maximum temperature value",
+          "validator": {
+            "isRequired": "Maximum temperature is required",
+            "isNumber": "Maximum temperature must be a number",
+            "refine": "Maximum temperature must be greater than or equal to minimum temperature"
+          }
+        },
+        "minTemperature": {
+          "label": "Minimum Temperature",
+          "placeholder": "Enter minimum temperature value",
+          "validator": {
+            "isRequired": "Minimum temperature is required",
+            "isNumber": "Minimum temperature must be a number",
+            "refine": "Minimum temperature must be less than or equal to maximum temperature"
+          }
+        },
+        "maxTurbidity": {
+          "label": "Maximum Turbidity",
+          "placeholder": "Enter maximum turbidity value",
+          "validator": {
+            "isRequired": "Maximum turbidity is required",
+            "isNumber": "Maximum turbidity must be a number",
+            "refine": "Maximum turbidity must be greater than or equal to minimum turbidity"
+          }
+        },
+        "minTurbidity": {
+          "label": "Minimum Turbidity",
+          "placeholder": "Enter minimum turbidity value",
+          "validator": {
+            "isRequired": "Minimum turbidity is required",
+            "isNumber": "Minimum turbidity must be a number",
+            "refine": "Minimum turbidity must be less than or equal to maximum turbidity"
+          }
+        }
+      }
+    },
+    "monitoring": {
+      "downloadExcel": "Download Excel Data",
+      "dateRange": "Date Range",
+      "monthRange": "Month Range",
+      "fromMonth": "Select Start Month",
+      "toMonth": "Select End Month",
+      "datePicker": "Select Date Range",
+      "selectFilterType": "Select Filter Type",
+      "selectCategory": "Select Fish Category",
+      "addDevice": "Add Device",
+      "tryAdjustingFilters": "Trying to find data...",
+      "year": "Select Year",
+      "months": "Months",
+      "min": "Minimum",
+      "specificLimitSelected": "Select Specific Limit Detail",
+      "selectLimit": "Select Limit",
+      "max": "Maximum",
+      "outOfRange": "Out of Range",
+      "average": "Average",
+      "noDataAvailable": "No data available",
+      "averages": "Averages",
+      "monitoringDevice": {
+        "isConnected": "Device Connected",
+        "isNotConnected": "Device Not Connected",
+        "range": "Range {min} - {max}",
+        "temperatureWater": {
+          "title": "Water Temperature {unit}",
+          "min": "Minimum Water Temperature ",
+          "max": "Maximum Water Temperature "
+        },
+        "turbidityWater": {
+          "title": "Water Turbidity ",
+          "min": "Minimum Water Turbidity ",
+          "max": "Maximum Water Turbidity "
+        },
+        "phWater": {
+          "title": "Water pH",
+          "min": "Minimum Water pH ",
+          "max": "Maximum Water pH "
+        }
+      },
+      "featureDataMonitoring": {
+        "temperatureWater": {
+          "title": "Monthly Water Temperature Chart",
+          "common": "Water Temperature",
+          "min": "Minimum Water Temperature",
+          "max": "Maximum Water Temperature",
+          "invalidDate": "Invalid date"
+        },
+        "turbidityWater": {
+          "title": "Monthly Water Turbidity Chart",
+          "common": "Water Turbidity",
+          "min": "Minimum Water Turbidity",
+          "max": "Maximum Water Turbidity",
+          "invalidDate": "Invalid date"
+        },
+        "pHWater": {
+          "title": "Monthly Water pH Chart",
+          "common": "Water pH",
+          "min": "Minimum Water pH",
+          "max": "Maximum Water pH",
+          "invalidDate": "Invalid date"
+        }
+      },
+      "fields": {
+        "nameMonitoring": {
+          "label": "Monitoring Name",
+          "placeholder": "Enter monitoring name",
+          "validator": "Monitoring name is required"
+        },
+        "limitId": {
+          "label": "Limit ID",
+          "placeholder": "Enter limit ID",
+          "validator": "Please select one of the limits"
+        },
+        "locationDevice": {
+          "label": "Device Location",
+          "placeholder": "Select device location",
+          "validator": "Device location is required"
+        }
+      }
+    },
+    "notification": {
+      "fields": {
+        "telegram": {
+          "label": "Telegram ID",
+          "placeholder": "Enter Telegram ID",
+          "validator": "Telegram ID is required"
+        },
+        "whatsapp": {
+          "label": "Whatsapp Number",
+          "placeholder": "Enter Whatsapp number",
+          "validator": {
+            "min": "Whatsapp number must be at least 10 characters",
+            "format": "Whatsapp number must start with 08 and contain only numbers",
+            "max": "Whatsapp number must be at most 13 characters"
+          }
+        }
+      },
+      "updateButton": "Update"
+    },
+    "dataMonitoring": {
+      "fields": {
+        "validator": {
+          "phWater": "Water pH is required.",
+          "TemperatureWater": "Water Temperature is required.",
+          "TurbidityWater": "Water Turbidity is required."
+        }
+      }
+    },
+    "tourGuide": [
+      {
+        "target": "#welcome-message",
+        "title": "Welcome",
+        "route": "/dashboard/monitoring",
+        "content": "Welcome to our monitoring application. This application is used to monitor water quality in your community."
+      },
+      {
+        "target": "#verified-email",
+        "title": "Email Verification",
+        "content": "Please verify your email to activate your account and get full access to all features."
+      },
+      {
+        "target": "#notifications-menu",
+        "title": "Notifications",
+        "content": "Click this icon to see the latest notifications or access your notification settings.",
+        "position": "bottom",
+        "route": "/dashboard/monitoring",
+        "closePopoverOnNext": true,
+        "spotlightPadding": 12
+      },
+      {
+        "target": "#notifications-popover",
+        "title": "Notification Settings",
+        "content": "In this area, manage your notification preferences. Be sure to add your WhatsApp number and Telegram ID so you receive important updates.",
+        "position": "bottom",
+        "route": "/dashboard/monitoring",
+        "action": {
+          "type": "openPopover"
+        },
+        "closePopoverOnNext": false,
+        "delay": 500,
+        "spotlightPadding": 12
+      },
+      {
+        "target": "#edit-whatapps",
+        "title": "Profile Content",
+        "position": "left",
+        "closePopoverOnNext": false,
+        "content": "This section contains the WhatsApp number and Telegram ID used for notification configuration."
+      },
+      {
+        "target": "#edit-telegram",
+        "title": "Profile Content",
+        "position": "left",
+        "content": "This section contains the WhatsApp number and Telegram ID used for notification configuration."
+      },
+      {
+        "target": "#theme-switcher",
+        "title": "Display Settings",
+        "content": "Adjust the application display to light or dark mode for your eye comfort."
+      },
+      {
+        "target": "#change-locale",
+        "title": "Language Settings",
+        "content": "Change the application language according to the language you understand."
+      },
+      {
+        "target": "#filter-type",
+        "title": "Search Type",
+        "content": "Choose the data search method that best suits your needs (by date or month)."
+      },
+      {
+        "target": "#date-range",
+        "title": "Time Range",
+        "content": "Specify the start and end time to search for the data you need.",
+        "route": "/dashboard/monitoring",
+        "params": "filterType=month&dateFrom=2022-01-20&dateTo=2022-02-09"
+      },
+      {
+        "target": "#year-on-month",
+        "title": "Select Year",
+        "content": "Specify the year to facilitate searching for the data you need.",
+        "route": "/dashboard/monitoring",
+        "params": "filterType=year&year=2025&monthFrom=01&monthTo=12"
+      },
+      {
+        "target": "#start-month",
+        "title": "Select Start Month",
+        "content": "Specify the start month to search for data within a specific period.",
+        "route": "/dashboard/monitoring",
+        "params": "filterType=year&year=2020&monthFrom=03&monthTo=12"
+      },
+      {
+        "target": "#end-month",
+        "title": "End Month",
+        "content": "Select the end month to set the end limit in the data search filter.",
+        "route": "/dashboard/monitoring",
+        "params": "filterType=year&year=2020&monthFrom=03&monthTo=12"
+      },
+      {
+        "target": "#download-excel",
+        "title": "Download Data",
+        "content": "Click this button to download data in Excel format for further analysis."
+      },
+      {
+        "target": "#device-name-1",
+        "position": "top",
+        "title": "Device Name",
+        "content": "Use this feature to manually enter monitoring data to ensure data remains up-to-date."
+      },
+      {
+        "target": "#use-limit-device-1",
+        "position": "top",
+        "title": "Used Limit Data",
+        "content": "Use this feature to manually enter monitoring data to ensure data remains up-to-date."
+      },
+      {
+        "target": "#location-device-1",
+        "position": "top",
+        "title": "Device Location",
+        "content": "Use this feature to manually enter monitoring data to ensure data remains up-to-date."
+      },
+      {
+        "target": "#delete-device-1",
+        "position": "top",
+        "title": "Delete Device",
+        "content": "Use this feature to manually enter monitoring data to ensure data remains up-to-date."
+      },
+      {
+        "target": "#edit-device-1",
+        "position": "top",
+        "title": "Edit Device",
+        "content": "Use this feature to manually enter monitoring data to ensure data remains up-to-date."
+      },
+      {
+        "target": "#connecting-device-1",
+        "position": "top",
+        "title": "Device Connection",
+        "content": "Use this feature to manually enter monitoring data to ensure data remains up-to-date."
+      },
+      {
+        "target": "#input-data-monitoring",
+        "position": "top",
+        "title": "Input Monitoring Data",
+        "route": "/dashboard/monitoring",
+        "content": "Use this feature to manually enter monitoring data to ensure data remains up-to-date."
+      },
+      {
+        "target": "#table-limit",
+        "title": "Data Table",
+        "route": "/dashboard/limitations",
+        "content": "This table displays the fish limits used as a reference in monitoring fish parameters."
+      },
+      {
+        "target": "#delete-limit-1",
+        "title": "Delete Limit Data",
+        "content": "Click this button to delete unnecessary fish limit data."
+      },
+      {
+        "target": "#edit-limit-1",
+        "title": "Edit Limit Data",
+        "content": "Use this feature to edit fish limit data to suit monitoring needs."
+      },
+      {
+        "target": "#detail-limit-1",
+        "title": "Limit Data Detail",
+        "content": "This button displays complete details about the fish limits used in monitoring."
+      },
+      {
+        "target": "#input-data-limitation",
+        "title": "Input Data Limitation",
+        "content": "Enter the required limit data to ensure monitoring runs smoothly."
+      }
+    ]
+  },
+  "resetPassword": {
+    "title": "Reset Password",
+    "description": "Create a new password for your account",
+    "fields": {
+      "newPassword": {
+        "label": "New Password",
+        "placeholder": "Enter new password",
+        "validator": {
+          "min": "Password must be at least 8 characters",
+          "uppercase": "Password must contain at least one uppercase letter",
+          "lowercase": "Password must contain at least one lowercase letter",
+          "number": "Password must contain at least one number",
+          "special": "Password must contain at least one special character"
+        }
+      },
+      "confirmPassword": {
+        "label": "Confirm Password",
+        "placeholder": "Enter password confirmation",
+        "validator": "Password confirmation does not match"
+      },
+      "email": { "validator": "Signature does not match" }
+    },
+    "submitButton": "Reset Password",
+    "resettingButton": "Resetting...",
+    "successMessageTitle": "Password Reset Successfully",
+    "successMessageDescription": "Your password has been reset. You can now login with your new password.",
+    "goToLoginButton": "Go to Login Page",
+    "errorMessage": "An error occurred, please try again",
+    "invalidLinkError": "Invalid password reset link"
+  },
+  "otp": {
+    "email": {
+      "title": "Verify Your Email",
+      "description": "Enter the verification code sent to your email.",
+      "successTitle": "Email Verified Successfully",
+      "successDescription": "Your email has been successfully verified. You can now log in to your account.",
+      "verifyError": "An error occurred while verifying email.",
+      "fields": {
+        "email": {
+          "label": "Email",
+          "placeholder": "Your Email",
+          "validator": "Invalid email format"
+        },
+        "otp": {
+          "validator": {
+            "min": "OTP must be 6 characters",
+            "max": "OTP must be 6 characters",
+            "format": "OTP can only contain letters and numbers (no special characters)"
+          }
+        },
+        "signature": { "validator": "Signature does not match" }
+      }
+    },
+    "forgotPassword": {
+      "title": "Verify Password Recovery",
+      "description": "Enter the verification code sent to your email to reset your password.",
+      "successTitle": "Email Verified Successfully",
+      "successDescription": "Your email has been successfully verified. Please proceed to reset your password.",
+      "verifySuccess": "OTP Verified Successfully",
+      "verifyMessage": "Your email has been verified. You can now proceed.",
+      "errorSubmit": "An error occurred while verifying OTP.",
+      "errorSignature": "Invalid signature.",
+      "fields": {
+        "email": {
+          "label": "Email",
+          "placeholder": "Your Email",
+          "validator": "Invalid email format"
+        },
+        "otp": {
+          "validator": {
+            "min": "OTP must be 6 characters",
+            "max": "OTP must be 6 characters",
+            "format": "OTP can only contain letters and numbers (no special characters)"
+          }
+        },
+        "signature": { "validator": "Signature does not match" }
+      }
+    },
+    "goToLogin": "Login Now",
+    "countdown": "Redirecting in {countdown} seconds...",
+    "tooManyAttemptsTitle": "Too Many Resend Attempts",
+    "tooManyAttemptsDescription": "You have made too many resend attempts. Please wait a moment or check your spam folder.",
+    "pleaseWait": "Please wait {countdown}",
+    "notReceived": "Didn't receive the code? Resend",
+    "verifying": "Verifying...",
+    "verify": "Verify {name}",
+    "verificationCodeSent": "Verification code sent successfully.",
+    "resendError": "An error occurred while resending the verification code."
+  },
+  "forgotPassword": {
+    "title": "Forgot Password",
+    "description": "Enter your email to receive a password reset link",
+    "submitButton": "Send",
+    "processing": "Processing...",
+    "successMessage": "Password reset link has been sent to your email.",
+    "successTitle": "Check Your Email",
+    "goToOTP": "Go to OTP",
+    "countdown": "Redirecting in {countdown} seconds...",
+    "fields": {
+      "email": {
+        "label": "Email",
+        "placeholder": "Your Email",
+        "validator": {
+          "required": "Email is required",
+          "format": "Invalid email format"
+        }
+      }
+    }
+  },
+  "tutorial": {
+    "title": "Learn How to Use the System",
+    "description": "Follow our step-by-step tutorials to master the system quickly:",
+    "tutorial": [
+      {
+        "id": "1",
+        "title": "Usage Guide",
+        "description": "Learn how to utilize every feature of the application.",
+        "step": {
+          "title": "Step",
+          "step": ["Step 1", "Step 2", "Step 3"]
+        },
+        "button": "View"
+      },
+      {
+        "title": "Installation Guide",
+        "description": "Complete guide to installing the application on your device.",
+        "button": "View",
+        "step": {
+          "title": "Step",
+          "step": ["Step 1", "Step 2", "Step 3"]
+        }
+      },
+      {
+        "title": "Telegram Bot Integration Guide",
+        "description": "Easy way to connect the application with Telegram for real-time notifications.",
+        "button": "View",
+        "step": {
+          "title": "Step",
+          "step": ["Step 1", "Step 2", "Step 3"]
+        }
+      },
+      {
+        "title": "Download Report Integration Guide",
+        "description": "Guide to downloading reports and analyzing your data more easily.",
+        "button": "View",
+        "step": {
+          "title": "Step",
+          "step": ["Step 1", "Step 2", "Step 3"]
+        }
+      }
+    ]
+  },
+  "signIn": {
+    "title": "Welcome Back",
+    "description": "Log in to your account to continue and access all our best features.",
+    "rememberMe": "Remember me?",
+    "forgotPassword": "Forgot password?",
+    "button": "Sign In",
+    "orSignIn": "Or sign in with",
+    "haventAccount": "Don't have an account?",
+    "errorAccount": "Account not registered",
+    "signUp": "Sign Up",
+    "fields": {
+      "email": {
+        "label": "Email",
+        "placeholder": "Enter email",
+        "validator": "Invalid email address"
+      },
+      "password": {
+        "label": "Password",
+        "placeholder": "Enter password",
+        "validator": {
+          "min": "Password must be at least 8 characters",
+          "uppercase": "Password must contain at least one uppercase letter",
+          "lowercase": "Password must contain at least one lowercase letter",
+          "number": "Password must contain at least one number",
+          "special": "Password must contain at least one special character"
+        }
+      }
+    }
+  },
+  "signUp": {
+    "title": "Create New Account",
+    "description": "Create a new account to get started and access all our features.",
+    "success": "Successfully registered account",
+    "delay": "Page will be redirected in ",
+    "button": {
+      "next": "Next",
+      "signUp": "Sign Up"
+    },
+    "signIn": "Sign In",
+    "orSignUp": "Or sign up with",
+    "haveAccount": "Already have an account?",
+    "fields": {
+      "name": {
+        "label": "Name",
+        "placeholder": "Enter name",
+        "validator": "Name must be at least 2 characters"
+      },
+      "noWhatsapp": {
+        "label": "Whatsapp Number",
+        "placeholder": "Enter Whatsapp number",
+        "validator": {
+          "min": "Whatsapp number must be at least 10 characters",
+          "format": "Whatsapp number must start with 08 and contain only numbers",
+          "max": "Whatsapp number must be at most 13 characters"
+        }
+      },
+      "idTelegram": {
+        "label": "Telegram ID",
+        "placeholder": "Enter Telegram ID",
+        "validator": ""
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "Enter email",
+        "validator": "Invalid email format"
+      },
+      "password": {
+        "label": "Password",
+        "placeholder": "Enter password",
+        "passwordStrength": "Password Strength",
+        "validator": {
+          "min": "Password must be at least 8 characters",
+          "uppercase": "Password must contain at least one uppercase letter",
+          "lowercase": "Password must contain at least one lowercase letter",
+          "number": "Password must contain at least one number",
+          "special": "Password must contain at least one special character"
+        }
+      },
+      "confirmPassword": {
+        "label": "Confirm Password",
+        "placeholder": "Enter password confirmation",
+        "validator": "Password confirmation does not match"
+      }
+    },
+    "signUp": "Sign Up Now"
+  },
+  "resetPasswordSuccess": {
+    "title": "Password Reset Successful",
+    "description": "Your password has been successfully reset. Please log in with your new password."
+  },
+  "save": "Save",
+  "cancel": "Cancel",
+  "error": {
+    "notFound": "Oops! The page you are looking for cannot be found.",
+    "serverError": "There is a problem with our server. We are fixing it, please try again shortly."
+  },
+  "confirmation": {
+    "delete": "Are you sure you want to delete this item? This action cannot be undone.",
+    "yes": "Yes",
+    "no": "No"
+  },
+  "monitor": {
+    "status": "Status",
+    "active": "Active",
+    "inactive": "Inactive",
+    "loading": "Loading..."
+  },
+  "user": {
+    "name": "Name",
+    "email": "Email",
+    "role": "Role"
+  },
+  "common": {
+    "title": "Monitoring Platform Help Center",
+    "subtitle": "Find answers to common questions or contact our support team for further assistance",
+    "loading": "Loading...",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "reset": "Clear",
+    "required": "Required",
+    "optional": "optional",
+    "search": "Search",
+    "noResults": "No results found",
+    "learnMore": "Learn more",
+    "back": "Back",
+    "next": "Next"
+  },
+  "contactForm": {
+    "title": "Contact Support",
+    "subtitle": "Please fill out the form below with details of your question or issue",
+    "fields": {
+      "name": {
+        "label": "Name",
+        "placeholder": "Your Name",
+        "validator": "Name is required."
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "your.email@example.com",
+        "validator": "Email is required."
+      },
+      "topic": {
+        "label": "Topic",
+        "placeholder": "Select a topic",
+        "options": {
+          "general": "General Inquiry",
+          "iot": "IoT Integration",
+          "notifications": "Notification Settings",
+          "fish": "Fish Monitoring",
+          "billing": "Billing & Subscription",
+          "technical": "Technical Support"
+        },
+        "validator": "Topic is required."
+      },
+      "priority": {
+        "label": "Priority",
+        "placeholder": "Select priority",
+        "options": {
+          "low": "Low",
+          "medium": "Medium",
+          "high": "High",
+          "urgent": "Urgent"
+        },
+        "validator": "Priority is required."
+      },
+      "message": {
+        "label": "Message",
+        "placeholder": "Please describe your question or issue in detail...",
+        "validator": "Message is required."
+      },
+      "attachments": {
+        "label": "Attachments (optional)",
+        "description": "You can attach screenshots, logs, or other relevant files (max 5MB per file)",
+        "validator": "Attachments must be 5MB or smaller."
+      }
+    },
+    "buttons": {
+      "submit": "Send Message",
+      "reset": "Clear Form",
+      "sending": "Sending..."
+    },
+    "notifications": {
+      "success": "Message sent",
+      "successDetail": "We will contact you shortly.",
+      "error": "Failed to send message",
+      "errorDetail": "Please try again later or contact us by phone."
+    }
+  },
+  "supportOptions": {
+    "liveChat": {
+      "title": "Live Chat Support",
+      "description": "Need immediate help? Our support team is available for live chat during business hours.",
+      "button": "Start Live Chat"
+    },
+    "phone": {
+      "title": "Support Phone Number",
+      "hours": "Monday - Friday: 08.00 - 17.00 WIB",
+      "number": "+62 812 3456 7890"
+    },
+    "documentation": {
+      "title": "Documentation",
+      "description": "Explore our comprehensive documentation for detailed guides and tutorials.",
+      "button": "View Documentation"
+    },
+    "community": {
+      "title": "Community Forum",
+      "description": "Connect with other users and share experiences in our community forum.",
+      "button": "Join Community"
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Find answers to common questions about our multi-device monitoring platform",
+    "notFound": "Didn't find the answer you were looking for? Please use the contact form on the left.",
+    "categories": {
+      "general": "General",
+      "iot": "IoT Code",
+      "tutorials": "Tutorials",
+      "notifications": "Notifications",
+      "monitoring": "Monitoring"
+    },
+    "questions": {
+      "general": [
+        {
+          "question": "What is a multi-device monitoring platform?",
+          "answer": "Our platform is a comprehensive solution for monitoring multiple devices across various geographic locations. It provides real-time data visualization, alerts, and analytics for your connected devices, allowing you to manage and monitor your IoT ecosystem from a single dashboard."
+        },
+        {
+          "question": "How many devices can I monitor simultaneously?",
+          "answer": "Our platform supports monitoring an unlimited number of devices, depending on your subscription plan. The basic plan allows up to 10 devices, while premium plans offer monitoring for hundreds of devices across multiple locations."
+        },
+        {
+          "question": "What types of devices are compatible with the platform?",
+          "answer": "Our platform is compatible with a wide range of IoT devices, including sensors, controllers, cameras, and custom hardware. Any device that can connect to the internet and send data via our supported protocols (MQTT, HTTP, WebSockets) can be integrated."
+        },
+        {
+          "question": "How does the multi-geolocation feature work?",
+          "answer": "Our platform allows you to organize devices by location and view them on an interactive map. You can create location groups, set up geofences, and monitor devices based on their geographical position. This is particularly useful for distributed systems like agricultural monitoring, environmental sensing, or multi-site business operations."
+        }
+      ],
+      "iot": [
+        {
+          "question": "How do I get the IoT code for my device?",
+          "answer": "Our platform provides ready-to-use code snippets for various IoT devices and microcontrollers. Simply navigate to the \"IoT Code\" section in your dashboard, select your device type (Arduino, ESP8266, ESP32, Raspberry Pi, etc.), and download the pre-configured code. You can also customize code parameters directly on the platform."
+        },
+        {
+          "question": "What programming languages are supported for IoT integration?",
+          "answer": "We provide code examples and libraries in various languages including C/C++ (for Arduino and ESP devices), Python (for Raspberry Pi and other Linux-based devices), JavaScript (for Node.js based devices), and MicroPython (for compatible microcontrollers)."
+        },
+        {
+          "question": "Can I integrate existing devices with different protocols?",
+          "answer": "Yes, our platform supports various integration methods. For devices using standard protocols like MQTT, HTTP, or WebSockets, you can use our API endpoints directly. For proprietary protocols, we offer gateway solutions that can translate between protocols. Additionally, our platform provides webhook integrations for third-party services."
+        },
+        {
+          "question": "How secure is the connection between my devices and the platform?",
+          "answer": "All communication between your devices and our platform is encrypted using TLS/SSL. We implement device authentication using unique API keys or certificates, and all data is transmitted securely. Our platform also supports additional security features like IP whitelisting and two-factor authentication for the dashboard."
+        }
+      ],
+      "tutorials": [
+        {
+          "question": "How do I access the platform tutorials?",
+          "answer": "Tutorials are available in the \"Learning Center\" section of your dashboard. We offer step-by-step guides, video tutorials, and interactive walkthroughs for all platform features. New users automatically receive a guided tour upon first login, which can be replayed anytime from the Help menu."
+        },
+        {
+          "question": "What is covered in the interactive tour guide?",
+          "answer": "Our interactive tour guide walks you through the main features of the platform, including dashboard navigation, device setup, notification configuration, data visualization, and report generation. The tour is contextual, meaning it adapts to your specific setup and subscription level."
+        },
+        {
+          "question": "Are there specific tutorials for setting up different types of monitoring?",
+          "answer": "Yes, we provide specific tutorials for various monitoring scenarios, including aquaculture monitoring, environmental sensing, industrial equipment monitoring, and smart farming. Each tutorial covers hardware setup recommendations, code examples, and configuration guidelines specific to that application."
+        },
+        {
+          "question": "Can I request a custom tutorial for my specific use case?",
+          "answer": "Premium subscribers can request custom tutorials tailored to their specific implementation needs. Our technical team will create personalized guides and even offer one-on-one virtual sessions to help you optimize your monitoring setup."
+        }
+      ],
+      "notifications": [
+        {
+          "question": "How do I set up WhatsApp notifications?",
+          "answer": "To configure WhatsApp notifications, go to the \"Notifications\" section in your dashboard and select \"Add WhatsApp Channel.\" You will need to enter the phone number(s) you want to receive alerts on and verify each number via a one-time code. Our system uses the official WhatsApp Business API to deliver messages reliably."
+        },
+        {
+          "question": "How do I integrate Telegram notifications?",
+          "answer": "For Telegram notifications, navigate to the \"Notifications\" section and select \"Add Telegram Channel.\" You will need to provide your Telegram user ID or group ID. Our system will guide you through the process of connecting with our Telegram bot, which will deliver the notifications."
+        },
+        {
+          "question": "Can I customize notification messages and their frequency?",
+          "answer": "Yes, our platform offers extensive customization for notifications. You can create custom message templates, set notification priorities, define quiet hours, and configure alert thresholds. For each alert type, you can specify which channels should receive the notification and set different message formats for each channel."
+        },
+        {
+          "question": "What other notification channels are supported?",
+          "answer": "In addition to WhatsApp and Telegram, our platform supports email notifications, SMS, push notifications (via our mobile app), voice calls for critical alerts, webhook integrations for custom systems, and integrations with popular services like Slack, Microsoft Teams, and Discord."
+        }
+      ],
+      "monitoring": [
+        {
+          "question": "How does the fish monitoring system work?",
+          "answer": "Our aquaculture monitoring system uses specialized sensors to track water quality parameters (temperature, pH, dissolved oxygen, ammonia levels), fish behavior patterns, and feeding metrics. The platform collects this data in real-time and provides analytics to optimize fish health and growth."
+        },
+        {
+          "question": "How do I set fish monitoring thresholds?",
+          "answer": "In the \"Monitoring Settings\" section, select your aquaculture project and navigate to \"Thresholds.\" Here, you can set specific parameters for each monitored value. For example, you can define acceptable ranges for water temperature, oxygen levels, and pH. When readings fall outside these ranges, the system will trigger alerts based on your notification preferences."
+        },
+        {
+          "question": "Can the system monitor different fish species with different needs?",
+          "answer": "Yes, our platform allows you to create species-specific profiles with different monitoring parameters. You can set up multiple monitoring zones within the same location, each with its own thresholds and alert settings. This is particularly useful for facilities raising multiple species with varying environmental requirements."
+        },
+        {
+          "question": "Does the platform provide predictive analytics for fish health?",
+          "answer": "Yes, our premium plans include predictive analytics that use historical data and machine learning to forecast potential issues before they become critical. The system can predict water quality trends, detect subtle changes in fish behavior that might indicate disease, and recommend preventive actions to maintain optimal conditions for your aquaculture operation."
+        },
+        {
+          "question": "How does the fish counting and biomass estimation feature work?",
+          "answer": "Our platform uses computer vision technology via underwater cameras to estimate fish count and biomass. The system can track growth rates over time, helping you optimize feeding schedules and harvest times. This feature requires compatible underwater camera equipment and is available on our advanced subscription plans."
+        }
+      ]
+    }
+  }
+}

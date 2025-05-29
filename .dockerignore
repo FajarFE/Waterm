@@ -1,0 +1,52 @@
+# Git
+.git
+.gitignore
+
+# Docker
+Dockerfile
+docker-compose.yaml
+.dockerignore
+
+# Node
+node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build artifacts (will be built inside Docker)
+.next
+dist_socket
+
+# Env files (should be passed at runtime or build time, not copied directly if they contain secrets)
+.env
+.env*.local
+*.env
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDE / Editor
+.vscode
+*.code-workspace
+
+# Logs
+*.log
+logs
+*debug.log*
+*error.log*
+
+# Temp files
+temp/
+tmp/
+
+# Docker ignore
+.git
+node_modules
+.next
+.env*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*

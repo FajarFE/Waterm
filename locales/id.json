@@ -1,0 +1,1502 @@
+{
+  "title": "Pantau Situs Web Anda Secara Global & Real-Time",
+  "description": "Pastikan performa dan waktu aktif situs web Anda dari berbagai perangkat dan lokasi di seluruh dunia. Dapatkan wawasan akurat, deteksi masalah lebih cepat, dan optimalkan pengalaman pengguna dengan pemantauan multi-perangkat & multi-geolokasi.",
+  "settings": "Pengaturan",
+  "logout": "Keluar",
+  "profile": "Profil",
+  "techStack": "Teknologi",
+  "service": {
+    "title": "Layanan Kami",
+    "description": "Nikmati layanan terbaik untuk mempermudah pekerjaan Anda, termasuk:",
+    "service": {
+      "Monitoring": "Pemantauan Real-time: Memantau data sensor secara langsung tanpa jeda.",
+      "MultiGeologi": "Multi-Geolokasi: Dapatkan analisis lebih dalam dengan dukungan berbagai lokasi geografis.",
+      "Notification": "Notifikasi: Terima pemberitahuan instan mengenai data terbaru atau kondisi penting.",
+      "Report": "Laporan: Akses laporan lengkap dan mudah dipahami untuk analisis lebih lanjut."
+    }
+  },
+
+  "landingPage": {
+    "heroSection": {
+      "title": " Pemantauan Kualitas Air Open Source, Real-Time & Multi Device",
+      "description": " Pantau Kualitas Air Real-Time Multi Device Dapatkan data akurat dan analitik yang mudah dipahami. Efisien, terpercaya, dan siap bantu jaga kualitas air Anda.",
+      "button": " Mulai Sekarang"
+    },
+    "techStack": "Tumpukan Teknologi",
+    "Services": {
+      "title": "Mengapa Memilih Kami ?",
+      "slides": [
+        {
+          "title": "Mendobrak Hambatan Biaya Monitoring",
+          "model": "/asset/3D/charts.glb",
+          "desc": "WaterM hadir untuk memecahkan masalah biaya mahal teknologi monitoring budidaya ikan dengan menyediakan sumber daya lengkap untuk membuat alat monitoring sendiri secara mandiri."
+        },
+        {
+          "title": "Panen Lebih Optimal, Untung Lebih Maksimal",
+          "model": "/asset/3D/1.glb",
+          "desc": "Air stabil kunci sukses. WaterM bantu jaga kondisi ideal kolam, tingkatkan SR (Survival Rate) ikan, percepat pertumbuhan, dan dongkrak profitabilitas Anda."
+        },
+        {
+          "title": "Deteksi Dini Masalah Air",
+          "model": "/asset/3D/water-growth.glb",
+          "desc": "Sistem alert kami memberitahu Anda seketika saat kondisi air mulai buruk bagi ikan, memungkinkan intervensi cepat untuk menyelamatkan aset Anda."
+        },
+        {
+          "title": "Keraguan Menjadi Kepastian Data",
+          "model": "/asset/3D/7886961.glb",
+          "desc": "WaterM memberikan data real-time dan akurat tentang pH, suhu, dan kejernihan air, membantu pembudidaya mengambil keputusan berdasarkan fakta, bukan spekulasi."
+        }
+      ],
+      "tagline": {
+        "1": "Kontrol Ditangan Anda",
+        "2": "Optimasi Ditangan Anda"
+      }
+    },
+    "featureSection": {
+      "title": "Fitur Kami ?",
+      "features": [
+        {
+          "title": "Pemantauan Langsung untuk Pengambilan Keputusan Tepat",
+          "image": "/real-time.svg"
+        },
+        {
+          "title": "Kemudahan Mengunduh Data Sesuai Kebutuhan",
+          "image": "/unduh-excel.png"
+        },
+        {
+          "title": "Pantau Pembaruan Data Melalui Notifikasi Multi-Perangkat",
+          "image": "/notification.png"
+        },
+        {
+          "title": "Optimalisasi dengan filter dan perihitungan rata rata data",
+          "image": "/filter.png"
+        }
+      ]
+    },
+    "DIYSection": {
+      "codeButton": "Kode",
+      "designButton": "Desain",
+      "title": "Sumber Daya IoT",
+      "description": "Panduan lengkap dengan Menyediakan kode sumber terbuka dan desain casing 3D."
+    },
+    "tutorial": "Tutor"
+  },
+  "layout": {
+    "navbar": {
+      "menus": [
+        {
+          "name": "Tentang Kami",
+          "to": "about"
+        },
+        { "name": "Layanan", "to": "services" },
+        { "name": "Fitur", "to": "feature" },
+        { "name": "Sumber Daya", "to": "source" },
+        { "name": "Tutorial", "to": "tutorial" },
+        { "name": "FAQ", "to": "FAQ" }
+      ],
+      "signInButton": "Masuk",
+      "getStartedButton": "Mulai",
+      "signOutButton": "Keluar"
+    },
+    "footer": {
+      "nameCompany": "Waterm",
+      "descriptionCompany": "",
+      "quickLinks": [
+        { "name": "Layanan", "to": "services" },
+        { "name": "Fitur", "to": "feature" },
+        { "name": "DIY", "to": "DIY" },
+        { "name": "Tutorial", "to": "tutorial" },
+        { "name": "FAQ", "to": "FAQ" }
+      ],
+      "newsletter": {
+        "title": "Berlangganan Buletin Kami",
+        "desc": "Tetap ikuti berita dan penawaran terbaru kami.",
+        "fields": {
+          "placeholder": "Masukkan Email Anda",
+          "submit": "Berlangganan"
+        }
+      },
+      "contactUs": {
+        "title": "Hubungi Kami",
+        "email": "Email",
+        "phone": "Telepon",
+        "address": "Alamat"
+      }
+    }
+  },
+  "device": {
+    "code": {
+      "title": "Kode",
+      "description": "Kode Untuk Perangkat"
+    },
+    "designDevice": {
+      "title": "Desain Perangkat",
+      "description": "Desain Perangkat"
+    }
+  },
+  "welcomeMessage": "Selamat datang di Sistem Pemantauan Kami",
+  "LocaleSwitcher": {
+    "id": "Indonesia",
+    "en": "English",
+    "label": "EN"
+  },
+  "theme": {
+    "label": "Tema",
+    "light": "Terang",
+    "dark": "Gelap"
+  },
+  "sidebar": {
+    "menus": {
+      "about": "Tentang",
+      "service": "Layanan",
+      "tutorial": "Tutorial"
+    },
+    "signIn": "Masuk",
+    "started": "Mulai"
+  },
+  "heroSection": {
+    "title": "Pantau data sensor secara real-time dengan mudah dan cepat.",
+    "description": "Nikmati pengalaman memantau dan mengelola data sensor secara langsung dengan aplikasi kami yang mudah digunakan.",
+    "button": "Mulai Sekarang"
+  },
+  "serverAction": {
+    "monitoring": {
+      "createMonitoring": {
+        "success": "Berhasil membuat data pemantauan",
+        "error": "Gagal membuat data pemantauan",
+        "serverError": "Terjadi kesalahan pada server, silakan coba lagi",
+        "userNotFound": "Pengguna tidak ditemukan"
+      },
+      "deleteMonitoring": {
+        "success": "Berhasil menghapus data pemantauan",
+        "error": "Gagal menghapus data pemantauan",
+        "serverError": "Terjadi kesalahan pada server, silakan coba lagi",
+        "userNotFound": "Pengguna tidak ditemukan"
+      }
+    },
+    "limit": {
+      "userNotFound": "Pengguna tidak ditemukan",
+      "createLimit": {
+        "success": "Berhasil membuat batasan",
+        "error": "Gagal membuat batasan",
+        "serverError": "Terjadi kesalahan pada server, silakan coba lagi"
+      },
+      "deleteLimit": {
+        "success": "Berhasil menghapus batasan",
+        "error": "Gagal menghapus batasan",
+        "serverError": "Terjadi kesalahan pada server, silakan coba lagi"
+      },
+      "updateLimit": {
+        "success": "Berhasil memperbarui batasan",
+        "error": "Gagal memperbarui batasan",
+        "serverError": "Terjadi kesalahan pada server, silakan coba lagi",
+        "userNotFound": "Pengguna tidak ditemukan"
+      }
+    },
+    "signUp": {
+      "success": "Berhasil mendaftar",
+      "error": "Gagal mendaftar",
+      "serverError": "Terjadi kesalahan pada server, silakan coba lagi",
+      "emailAlreadyExist": "Email sudah terdaftar"
+    },
+    "verifyEmail": {
+      "sendOTPEmail": {
+        "success": "Berhasil mengirim email verifikasi, silakan cek email Anda",
+        "error": "Gagal mengirim email verifikasi, tolong coba lagi",
+        "serverError": "Terjadi kesalahan pada server, silakan coba lagi",
+        "emailAlreadyExist": "Email sudah terdaftar",
+        "userNotFound": "Pengguna tidak ditemukan"
+      },
+      "verify": {
+        "success": "Berhasil memverifikasi email",
+        "error": "Gagal memverifikasi email, silakan coba lagi",
+        "errorExpired": "Kode OTP telah kedaluwarsa, silakan kirim ulang",
+        "errorOTP": "Kode OTP tidak valid",
+        "serverError": "Terjadi kesalahan pada server, silakan coba lagi",
+        "userNotFound": "Pengguna tidak ditemukan"
+      },
+      "sendOTPForgotPassword": {
+        "success": "Berhasil mengirim email untuk mengatur ulang kata sandi",
+        "errorSignature": "Tanda Tangan tidak cocok",
+        "errorExpired": "Kode OTP telah kedaluwarsa, silakan kirim ulang",
+        "errorOtp": "Kode OTP tidak valid",
+        "error": "Gagal mengirim email untuk mengatur ulang kata sandi, silakan coba lagi",
+        "serverError": "Terjadi kesalahan pada server, silakan coba lagi",
+        "userNotFound": "Pengguna tidak ditemukan"
+      }
+    }
+  },
+  "dashboard": {
+    "layout": {
+      "sidebar": {
+        "menus": [
+          {
+            "name": "Dasbor",
+            "icon": "LuLayoutGrid",
+            "data": [
+              {
+                "link": "monitoring",
+                "name": "Pemantauan",
+                "icons": "MdInsights"
+              },
+              {
+                "link": "limitations",
+                "name": "Batasan",
+                "icons": "MdInsights"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "toast": {
+      "monitoring": {
+        "addDevice": {
+          "noLimit": "Data batasan belum tersedia, silakan buat data batasan terlebih dahulu {link}",
+          "notVerify": "Akun belum terverifikasi, silakan verifikasi akun Anda."
+        }
+      }
+    },
+    "emailVerification": {
+      "warning": "Email Belum Terverifikasi",
+      "verifyLink": "Klik di sini untuk verifikasi email"
+    },
+    "limitations": {
+      "form": {
+        "edit": {
+          "title": "Edit Batasan",
+          "description": "Ubah batasan sesuai kebutuhan Anda",
+          "buttonEdit": "Edit Batasan"
+        },
+        "create": {
+          "title": "Buat Batasan",
+          "description": "Buat batasan baru sesuai kebutuhan Anda",
+          "buttonCreate": "Buat Batasan"
+        },
+        "buttonCancel": "Batalkan"
+      },
+      "fields": {
+        "name": {
+          "label": "Nama Ikan",
+          "placeholder": "Pilih Ikan",
+          "validator": "Kategori ikan wajib diisi"
+        },
+        "maxPh": {
+          "label": "pH Maksimal",
+          "placeholder": "Masukkan nilai pH maksimal",
+          "validator": {
+            "isRequired": "pH maksimal wajib diisi",
+            "isNumber": "pH maksimal harus berupa angka",
+            "refine": "pH maksimal harus lebih besar atau sama dengan pH minimal"
+          }
+        },
+        "minPh": {
+          "label": "pH Minimal",
+          "placeholder": "Masukkan nilai pH minimal",
+          "validator": {
+            "isRequired": "pH minimal wajib diisi",
+            "isNumber": "pH minimal harus berupa angka",
+            "refine": "pH minimal harus lebih kecil atau sama dengan pH maksimal"
+          }
+        },
+        "maxTemperature": {
+          "label": "Suhu Maksimal",
+          "placeholder": "Masukkan nilai suhu maksimal",
+          "validator": {
+            "isRequired": "Suhu maksimal wajib diisi",
+            "isNumber": "Suhu maksimal harus berupa angka",
+            "refine": "Suhu maksimal harus lebih besar atau sama dengan suhu minimal"
+          }
+        },
+        "minTemperature": {
+          "label": "Suhu Minimal",
+          "placeholder": "Masukkan nilai suhu minimal",
+          "validator": {
+            "isRequired": "Suhu minimal wajib diisi",
+            "isNumber": "Suhu minimal harus berupa angka",
+            "refine": "Suhu minimal harus lebih kecil atau sama dengan suhu maksimal"
+          }
+        },
+        "maxTurbidity": {
+          "label": "Kekeruhan Maksimal",
+          "placeholder": "Masukkan nilai kekeruhan maksimal",
+          "validator": {
+            "isRequired": "Kekeruhan maksimal wajib diisi",
+            "isNumber": "Kekeruhan maksimal harus berupa angka",
+            "refine": "Kekeruhan maksimal harus lebih besar atau sama dengan kekeruhan minimal"
+          }
+        },
+        "minTurbidity": {
+          "label": "Kekeruhan Minimal",
+          "placeholder": "Masukkan nilai kekeruhan minimal",
+          "validator": {
+            "isRequired": "Kekeruhan minimal wajib diisi",
+            "isNumber": "Kekeruhan minimal harus berupa angka",
+            "refine": "Kekeruhan minimal harus lebih kecil atau sama dengan kekeruhan maksimal"
+          }
+        }
+      }
+    },
+    "monitoring": {
+      "downloadExcel": "Unduh Data Excel",
+      "dateRange": "Rentang Tanggal",
+      "monthRange": "Rentang Bulan",
+      "fromMonth": "Pilih Bulan Mulai",
+      "title": "Water Quality Monitoring",
+      "createDevice": {
+        "titleAddDevice": "Tambah Perangkat Pemantauan Baru",
+        "descriptionAddDeviceSelect": "Isi detail untuk perangkat baru Anda dan pilih jenis batasan yang sesuai.",
+        "labelNameMonitoring": "Nama Perangkat",
+        "placeholderNameMonitoring": "contoh: Sensor Ruang Tamu",
+        "labelLimitType": "Jenis Batasan",
+        "selectLimitPlaceholder": "Pilih jenis batasan",
+        "noLimitsAvailable": "Tidak ada batasan tersedia",
+        "labelLocationDevice": "Lokasi Perangkat",
+        "placeholderLocationDevice": "contoh: Kamar Atas",
+        "buttonTriggerAddDevice": "Tambah Perangkat",
+        "buttonAdd": "Tambah Perangkat",
+        "error": {
+          "selectLimit": "Silakan pilih jenis batasan.",
+          "noLimitData": "Data batasan tidak tersedia untuk dihubungkan.",
+          "addFailed": "Gagal menambahkan perangkat.",
+          "unexpected": "Terjadi kesalahan yang tidak terduga.",
+          "noLimitDataOpen": "Tidak dapat menambahkan perangkat: Tidak ada jenis batasan yang tersedia untuk dipilih.",
+          "verifyEmailOpen": "Silakan verifikasi email Anda sebelum menambahkan perangkat."
+        },
+        "success": {
+          "deviceAdded": "Perangkat berhasil ditambahkan!"
+        },
+        "common": {
+          "saving": "Menambahkan..."
+        }
+      },
+      "charts": {
+        "ph": {
+          "title": "Average pH Level",
+          "label": "pH"
+        },
+        "temperature": {
+          "title": "Average Temperature",
+          "label": "Temperature (°C)"
+        },
+        "turbidity": {
+          "title": "Average Turbidity",
+          "label": "Turbidity (NTU)"
+        }
+      },
+      "buttons": {
+        "generatingExcel": "Generating Excel...",
+        "downloadExcel": "Download Excel Report"
+      },
+      "errors": {
+        "missingParamsForFetch": "Cannot fetch data: Essential parameters for the server request are missing. Please check your filter selections.",
+        "unexpectedFetchError": "An unexpected error occurred while fetching monitoring data. Please try again later.",
+        "incompleteFilters": "Please select all required filters (e.g., Limit ID, Filter Type) to view data.",
+        "incompleteFiltersForTargetType": "The selected filter type requires more specific parameters. For 'Daily Average', please provide a date range. For 'Monthly Average', please provide a year and month range.",
+        "errorTitle": "Error Occurred",
+        "applyFiltersBeforeDownload": "Please apply filters before attempting to download the Excel report.",
+        "dateRangeRequiredForDownload": "A complete date range (From and To) is required for download when using the 'Daily Average' filter.",
+        "yearMonthRangeRequiredForDownload": "Year, Month From, and Month To are required for download when using the 'Monthly Average' filter.",
+        "invalidFilterTypeForDownload": "Invalid filter type selected for download.",
+        "excelGenerationFailed": "Excel report generation failed. Please try again or contact support if the issue persists.",
+        "unexpectedDownloadError": "An unexpected error occurred during the download process. Please try again."
+      },
+      "prompts": {
+        "initial": "Please select filters above to view monitoring data.",
+        "noData": "No data available for the selected filters and date range."
+      },
+      "toMonth": "Pilih Bulan Akhir",
+      "datePicker": "Pilih Rentang Tanggal",
+      "selectFilterType": "Pilih Tipe Filter",
+      "selectCategory": "Pilih Kategori Ikan",
+      "addDevice": "Tambah Perangkat",
+      "tryAdjustingFilters": "Mencoba mencari data...",
+      "year": "Pilih Tahun",
+      "months": "Bulan",
+      "min": "Minimal",
+      "specificLimitSelected": "Pilih Detail Batasan",
+      "selectLimit": "Pilih Batasan",
+      "max": "Maksimal",
+      "outOfRange": "Di Luar Rentang",
+      "average": "Rata-rata",
+      "noDataAvailable": "Tidak ada data tersedia",
+      "averages": "Rata-rata",
+      "monitoringDevice": {
+        "isConnected": "Perangkat Terhubung",
+        "isNotConnected": "Perangkat Tidak Terhubung",
+        "range": "Rentang {min} - {max}",
+        "temperatureWater": {
+          "title": "Suhu Air {unit}",
+          "min": "Suhu Air Minimal ",
+          "max": "Suhu Air Maksimal "
+        },
+        "turbidityWater": {
+          "title": "Kekeruhan Air ",
+          "min": "Kekeruhan Air Minimal ",
+          "max": "Kekeruhan Air Maksimal "
+        },
+        "phWater": {
+          "title": "pH Air",
+          "min": "pH Air Minimal ",
+          "max": "pH Air Maksimal "
+        }
+      },
+      "featureDataMonitoring": {
+        "temperatureWater": {
+          "title": "Grafik Suhu Air Bulanan",
+          "common": "Suhu Air",
+          "min": "Suhu Air Minimal",
+          "max": "Suhu Air Maksimal",
+          "invalidDate": "Tanggal tidak valid"
+        },
+        "turbidityWater": {
+          "title": "Grafik Kekeruhan Air Bulanan",
+          "common": "Kekeruhan Air",
+          "min": "Kekeruhan Air Minimal",
+          "max": "Kekeruhan Air Maksimal",
+          "invalidDate": "Tanggal tidak valid"
+        },
+        "pHWater": {
+          "title": "Grafik pH Air Bulanan",
+          "common": "pH Air",
+          "min": "pH Air Minimal",
+          "max": "pH Air Maksimal",
+          "invalidDate": "Tanggal tidak valid"
+        }
+      },
+      "fields": {
+        "nameMonitoring": {
+          "label": "Nama Pemantauan",
+          "placeholder": "Masukkan nama pemantauan",
+          "validator": "Nama pemantauan wajib diisi"
+        },
+        "limitId": {
+          "label": "ID Batasan",
+          "placeholder": "Masukkan ID batasan",
+          "validator": "Silakan pilih salah satu batasan"
+        },
+        "locationDevice": {
+          "label": "Lokasi Perangkat",
+          "placeholder": "Pilih lokasi perangkat",
+          "validator": "Lokasi perangkat wajib diisi"
+        }
+      }
+    },
+    "notification": {
+      "fields": {
+        "telegram": {
+          "label": "Id Telegram",
+          "placeholder": "Masukkan Id Telegram",
+          "validator": "Id Telegram wajib diisi"
+        },
+        "whatsapp": {
+          "label": "Nomor Whatsapp",
+          "placeholder": "Masukkan nomor whatsapp",
+          "validator": {
+            "min": "Nomor Whatsapp minimal harus 10 karakter",
+            "format": "Nomor WhatsApp harus diawali dengan 08 dan hanya berisi angka",
+            "max": "Nomor WhatsApp maksimal harus 13 karakter"
+          }
+        }
+      },
+      "updateButton": "Perbarui"
+    },
+    "dataMonitoring": {
+      "fields": {
+        "validator": {
+          "phWater": "pH Air wajib diisi.",
+          "TemperatureWater": "Suhu Air wajib diisi.",
+          "TurbidityWater": "Kekeruhan Air wajib diisi."
+        }
+      }
+    },
+    "tourGuide": [
+      {
+        "target": "#welcome-message",
+        "title": "Selamat Datang",
+        "route": "/dashboard/monitoring",
+        "content": "Selamat datang di aplikasi pemantauan kami. Aplikasi ini digunakan untuk memantau kualitas air di komunitas Anda."
+      },
+      {
+        "target": "#verified-email",
+        "title": "Verifikasi Email",
+        "content": "Silakan verifikasi email Anda untuk mengaktifkan akun dan mendapatkan akses penuh ke semua fitur."
+      },
+      {
+        "target": "#notifications-menu",
+        "title": "Notifikasi",
+        "content": "Klik ikon ini untuk melihat notifikasi terbaru atau mengakses pengaturan pemberitahuan Anda.",
+        "position": "bottom",
+        "route": "/dashboard/monitoring",
+        "closePopoverOnNext": true,
+        "spotlightPadding": 12
+      },
+      {
+        "target": "#notifications-popover",
+        "title": "Pengaturan Notifikasi",
+        "content": "Di area ini, kelola preferensi notifikasi Anda. Pastikan untuk menambahkan nomor WhatsApp dan ID Telegram agar Anda menerima pembaruan penting.",
+        "position": "bottom",
+        "route": "/dashboard/monitoring",
+        "action": {
+          "type": "openPopover"
+        },
+        "closePopoverOnNext": false,
+        "delay": 500,
+        "spotlightPadding": 12
+      },
+      {
+        "target": "#edit-whatapps",
+        "title": "Konten Profil",
+        "position": "left",
+        "closePopoverOnNext": false,
+        "content": "Bagian ini berisi nomor WhatsApp dan ID Telegram yang digunakan untuk konfigurasi notifikasi.",
+        "parentPopover": "#notifications-popover"
+      },
+      {
+        "target": "#edit-telegram",
+        "title": "Konten Profil",
+        "position": "left",
+        "content": "Bagian ini berisi nomor WhatsApp dan ID Telegram yang digunakan untuk konfigurasi notifikasi.",
+        "parentPopover": "#notifications-popover"
+      },
+      {
+        "target": "#theme-switcher",
+        "title": "Pengaturan Tampilan",
+        "content": "Sesuaikan tampilan aplikasi ke mode terang atau gelap untuk kenyamanan mata Anda."
+      },
+      {
+        "target": "#change-locale",
+        "title": "Pengaturan Bahasa",
+        "content": "Ubah bahasa aplikasi sesuai dengan bahasa yang Anda pahami."
+      },
+      {
+        "target": "#filter-type",
+        "title": "Jenis Pencarian",
+        "content": "Pilih cara mencari data yang paling sesuai dengan kebutuhan Anda (berdasarkan tanggal atau bulan)."
+      },
+      {
+        "target": "#date-range",
+        "title": "Rentang Waktu",
+        "content": "Tentukan waktu awal dan akhir untuk mencari data yang Anda butuhkan.",
+        "route": "/dashboard/monitoring",
+        "params": "filterType=month&dateFrom=2022-01-20&dateTo=2022-02-09"
+      },
+      {
+        "target": "#year-on-month",
+        "title": "Pilih Tahun",
+        "content": "Tentukan tahun untuk memudahkan pencarian data yang Anda butuhkan.",
+        "route": "/dashboard/monitoring",
+        "params": "filterType=year&year=2025&monthFrom=01&monthTo=12"
+      },
+      {
+        "target": "#start-month",
+        "title": "Pilih Bulan Awal",
+        "content": "Tentukan bulan mulai untuk mencari data dalam periode tertentu.",
+        "route": "/dashboard/monitoring",
+        "params": "filterType=year&year=2020&monthFrom=03&monthTo=12"
+      },
+      {
+        "target": "#end-month",
+        "title": "Bulan Akhir",
+        "content": "Pilih bulan akhir untuk menetapkan batas akhir dalam filter pencarian data.",
+        "route": "/dashboard/monitoring",
+        "params": "filterType=year&year=2020&monthFrom=03&monthTo=12"
+      },
+      {
+        "target": "#download-excel",
+        "title": "Unduh Data",
+        "content": "Klik tombol ini untuk mengunduh data dalam format Excel untuk analisis lebih lanjut."
+      },
+      {
+        "target": "#device-name-1",
+        "position": "top",
+        "title": "Nama Perangkat",
+        "content": "Gunakan fitur ini untuk memasukkan data pemantauan secara manual guna memastikan data tetap terkini."
+      },
+      {
+        "target": "#use-limit-device-1",
+        "position": "top",
+        "title": "Data Batasan Yang Digunakan",
+        "content": "Gunakan fitur ini untuk memasukkan data pemantauan secara manual guna memastikan data tetap terkini."
+      },
+      {
+        "target": "#location-device-1",
+        "position": "top",
+        "title": "Lokasi Perangkat",
+        "content": "Gunakan fitur ini untuk memasukkan data pemantauan secara manual guna memastikan data tetap terkini."
+      },
+      {
+        "target": "#delete-device-1",
+        "position": "top",
+        "title": "Hapus Perangkat",
+        "content": "Gunakan fitur ini untuk memasukkan data pemantauan secara manual guna memastikan data tetap terkini."
+      },
+      {
+        "target": "#edit-device-1",
+        "position": "top",
+        "title": "Ubah Perangkat",
+        "content": "Gunakan fitur ini untuk memasukkan data pemantauan secara manual guna memastikan data tetap terkini."
+      },
+      {
+        "target": "#connecting-device-1",
+        "position": "top",
+        "title": "Koneksi Perangkat",
+        "content": "Gunakan fitur ini untuk memasukkan data pemantauan secara manual guna memastikan data tetap terkini."
+      },
+      {
+        "target": "#input-data-monitoring",
+        "position": "top",
+        "title": "Input Data Monitoring",
+        "route": "/dashboard/monitoring",
+        "content": "Gunakan fitur ini untuk memasukkan data pemantauan secara manual guna memastikan data tetap terkini."
+      },
+      {
+        "target": "#table-limit",
+        "title": "Tabel Data",
+        "route": "/dashboard/limitations",
+        "content": "Tabel ini menampilkan batasan ikan yang digunakan sebagai acuan dalam pemantauan parameter ikan."
+      },
+      {
+        "target": "#delete-limit-1",
+        "title": "Hapus Data Batasan",
+        "content": "Klik tombol ini untuk menghapus data batasan ikan yang tidak diperlukan."
+      },
+      {
+        "target": "#edit-limit-1",
+        "title": "Edit Data Batasan",
+        "content": "Gunakan fitur ini untuk mengedit data batasan ikan agar sesuai dengan kebutuhan pemantauan."
+      },
+      {
+        "target": "#detail-limit-1",
+        "title": "Detail Data Batasan",
+        "content": "Tombol ini menampilkan detail lengkap tentang batasan ikan yang digunakan dalam pemantauan."
+      },
+      {
+        "target": "#input-data-limitation",
+        "title": "Input Batasan Data",
+        "content": "Masukkan data batasan yang diperlukan untuk memastikan pemantauan berjalan dengan baik."
+      }
+    ]
+  },
+  "resetPassword": {
+    "title": "Reset Password",
+    "description": "Buat password baru untuk akun Anda",
+    "fields": {
+      "newPassword": {
+        "label": "Password Baru",
+        "placeholder": "Masukkan password baru",
+        "validator": {
+          "min": "Kata sandi minimal harus 8 karakter",
+          "uppercase": "Kata sandi harus mengandung setidaknya satu huruf kapital",
+          "lowercase": "Kata sandi harus mengandung setidaknya satu huruf kecil",
+          "number": "Kata sandi harus mengandung setidaknya satu angka",
+          "special": "Kata sandi harus mengandung setidaknya satu karakter khusus"
+        }
+      },
+      "confirmPassword": {
+        "label": "Konfirmasi Password",
+        "placeholder": "Masukkan konfirmasi password",
+        "validator": "Konfirmasi kata sandi tidak cocok"
+      },
+      "email": { "validator": "Tanda Tangan tidak cocok" }
+    },
+    "submitButton": "Reset Password",
+    "resettingButton": "Sedang mereset...",
+    "successMessageTitle": "Password Berhasil Direset",
+    "successMessageDescription": "Password Anda telah direset. Anda sekarang dapat login dengan password baru.",
+    "goToLoginButton": "Ke Halaman Login",
+    "errorMessage": "Terjadi kesalahan silahkan ulangi kembali",
+    "invalidLinkError": "Tautan reset password tidak valid"
+  },
+  "otp": {
+    "title": "Verifikasi Email Anda",
+    "description": "Masukkan kode verifikasi yang telah dikirim ke email Anda.",
+    "successTitle": "Email Berhasil Diverifikasi",
+    "successDescription": "Email Anda telah berhasil diverifikasi. Anda sekarang dapat masuk ke akun Anda.",
+    "verifyError": "Terjadi kesalahan saat memverifikasi email.",
+    "resendAvailableIn": "Kirim ulang dalam {countdown} {seconds}",
+    "fields": {
+      "email": {
+        "label": "Email",
+        "placeholder": "Email Anda",
+        "validator": {
+          "required": "Email wajib diisi",
+          "format": "Format email tidak valid"
+        }
+      },
+      "otp": {
+        "validator": {
+          "min": "OTP harus terdiri dari 6 karakter",
+          "max": "OTP harus terdiri dari 6 karakter",
+          "format": "OTP hanya boleh berisi huruf dan angka (tanpa karakter khusus)"
+        }
+      },
+      "signature": { "validator": "Tanda Tangan tidak cocok" }
+    },
+    "forgotPassword": {
+      "title": "Verifikasi Pemulihan Kata Sandi",
+      "description": "Masukkan kode verifikasi yang telah dikirim ke email Anda untuk mengatur ulang kata sandi.",
+      "successTitle": "Email Berhasil Diverifikasi",
+      "successDescription": "Email Anda telah berhasil diverifikasi. Silakan lanjutkan untuk mengatur ulang kata sandi Anda.",
+      "verifySuccess": "OTP Berhasil Diverifikasi",
+      "verifyMessage": "Email Anda telah diverifikasi. Anda sekarang dapat melanjutkan.",
+      "errorSubmit": "Terjadi kesalahan saat memverifikasi OTP.",
+      "errorSignature": "Tanda tangan tidak valid.",
+      "fields": {
+        "email": {
+          "label": "Email",
+          "placeholder": "Email Anda",
+          "validator": "Format email tidak valid"
+        },
+        "otp": {
+          "validator": {
+            "min": "OTP harus terdiri dari 6 karakter",
+            "max": "OTP harus terdiri dari 6 karakter",
+            "format": "OTP hanya boleh berisi huruf dan angka (tanpa karakter khusus)"
+          }
+        },
+        "signature": { "validator": "Tanda Tangan tidak cocok" }
+      }
+    },
+    "goToLogin": "Masuk Sekarang",
+    "countdown": "Mengalihkan dalam {countdown} detik...",
+    "tooManyAttemptsTitle": "Terlalu Banyak Percobaan Kirim Ulang",
+    "tooManyAttemptsDescription": "Anda telah melakukan terlalu banyak percobaan kirim ulang. Silakan tunggu beberapa saat atau periksa folder spam Anda.",
+    "notReceived": "Tidak menerima kode? Kirim ulang",
+    "verifying": "Memverifikasi...",
+    "verify": "Verifikasi",
+    "verificationCodeSent": "Kode verifikasi berhasil dikirim.",
+    "resendError": "Terjadi kesalahan saat mengirim ulang kode verifikasi.",
+    "resendSuccess": "Kode verifikasi berhasil dikirim ulang,silahkan periksa email Anda."
+  },
+  "forgotPassword": {
+    "title": "Lupa Kata Sandi",
+    "description": "Masukkan email Anda untuk menerima tautan reset kata sandi",
+    "submitButton": "Kirim",
+    "processing": "Memproses...",
+    "successMessage": "Tautan reset kata sandi telah dikirim ke email Anda.",
+    "successTitle": "Periksa Email Anda",
+    "goToOTP": "Pergi ke OTP",
+    "countdown": "Mengalihkan dalam {countdown} detik...",
+    "fields": {
+      "email": {
+        "label": "Email",
+        "placeholder": "Email Anda",
+        "validator": {
+          "required": "Email wajib diisi",
+          "format": "Format email tidak valid"
+        }
+      }
+    }
+  },
+  "tutorial": {
+    "title": "Pelajari Cara Menggunakan Sistem",
+    "description": "Ikuti tutorial langkah demi langkah kami untuk menguasai sistem dengan cepat:",
+    "tutorial": [
+      {
+        "id": "1",
+        "title": "Panduan Penggunaan Dashboard",
+        "description": "Pelajari cara menggunakan dashboard, memverifikasi email, membuat dan mengelola limit data, menambahkan perangkat, dan mengintegrasikan limit data ke perangkat.",
+        "step": [
+          {
+            "title": " Login dan Navigasi Dashboard",
+            "description": "Buka aplikasi dan login menggunakan kredensial Anda (username dan password). Setelah login, Anda akan diarahkan ke dashboard utama. Dashboard ini menampilkan ringkasan data monitoring, perangkat terhubung, dan notifikasi terbaru. Perhatikan menu navigasi di sisi kiri atau atas layar untuk mengakses fitur-fitur lainnya (seperti menu perangkat, limit, dan pengaturan).",
+            "image": "/images/tutorial/dashboard_overview.png"
+          },
+          {
+            "title": "Verifikasi Email Akun",
+            "description": "Setelah login, sistem mungkin meminta Anda untuk memverifikasi email. Verifikasi email penting untuk keamanan akun Anda. Anda akan melihat notifikasi atau banner di dashboard yang meminta Anda memverifikasi email. Klik tombol 'Verifikasi Email' atau tautan serupa.",
+            "sub_step": [
+              {
+                "title": " Kirim Kode OTP",
+                "description": "Sistem akan mengirimkan kode verifikasi OTP (One-Time Password) ke alamat email yang terdaftar.",
+                "image": "/images/tutorial/otp_send.png"
+              },
+              {
+                "title": " Periksa Email",
+                "description": "Periksa kotak masuk email Anda (termasuk folder spam atau junk mail). Cari email dari sistem kami dengan subjek 'Verifikasi Email'.",
+                "image": "/images/tutorial/check_email.png"
+              },
+              {
+                "title": " Masukkan Kode OTP",
+                "description": "Salin kode OTP yang Anda terima. Kembali ke aplikasi dan masukkan kode OTP ke dalam kolom yang tersedia.",
+                "image": "/images/tutorial/enter_otp.png"
+              },
+              {
+                "title": " Verifikasi",
+                "description": "Klik tombol 'Verifikasi' atau 'Konfirmasi'. Jika verifikasi berhasil, Anda akan melihat pesan konfirmasi dan akun Anda akan terverifikasi.",
+                "image": "/images/tutorial/verify_otp.png"
+              }
+            ],
+            "image": "/images/tutorial/email_verification_otp.png"
+          },
+          {
+            "title": "Management Limit Data",
+            "description": "Limit data memungkinkan Anda menentukan rentang nilai ideal untuk parameter seperti suhu, pH, dan kejernihan air. Jika nilai-nilai ini berada di luar rentang yang ditentukan, Anda akan menerima notifikasi. Anda dapat membuat, mengedit, dan menghapus limit data.",
+            "sub_step": [
+              {
+                "title": " Navigasi ke Management Limit",
+                "description": "Klik menu 'Limit' atau 'Parameter' di navigasi dashboard.",
+                "image": "/images/tutorial/navigate_limits.png"
+              },
+              {
+                "title": " Membuat Limit Data Baru",
+                "description": "Klik tombol 'Tambah Limit' atau ikon serupa. Anda akan diminta untuk memasukkan nama limit, kategori ikan (opsional, jika relevan), parameter yang dimonitor (misalnya, 'Suhu Air'), nilai minimum, dan nilai maksimum. Pastikan limit sesuai dengan kebutuhan ikan yang Anda budidayakan.",
+                "image": "/images/tutorial/add_limit_data.png"
+              },
+              {
+                "title": " Mengedit Limit Data",
+                "description": "Cari limit yang ingin diedit di daftar limit. Klik ikon 'Edit' di samping limit tersebut. Anda dapat mengubah informasi limit. Klik 'Simpan' setelah melakukan perubahan.",
+                "image": "/images/tutorial/edit_limit_data.png"
+              },
+              {
+                "title": " Menghapus Limit Data",
+                "description": "Cari limit yang ingin dihapus di daftar limit. Klik ikon 'Hapus' (biasanya ikon tempat sampah) di samping limit tersebut. Anda akan diminta untuk mengkonfirmasi penghapusan.",
+                "image": "/images/tutorial/delete_limit_data.png"
+              }
+            ],
+            "image": "/images/tutorial/management_limit.png"
+          },
+          {
+            "title": "Menambahkan Perangkat Baru",
+            "description": "Untuk menambahkan perangkat baru (misalnya, sensor monitoring kualitas air), klik menu 'Perangkat' atau tombol 'Tambah Perangkat' di dashboard. Anda akan diarahkan ke halaman penambahan perangkat baru.",
+            "sub_step": [
+              {
+                "title": " Masukkan Informasi Perangkat",
+                "description": "Masukkan nama perangkat (misalnya, 'Sensor Kolam Utama'). Nama ini akan memudahkan Anda mengidentifikasi perangkat di dashboard. Masukkan informasi detail perangkat (opsional).",
+                "image": "/images/tutorial/enter_device_info.png"
+              },
+              {
+                "title": " Pilih Limit Data",
+                "description": "Pilih limit data yang akan digunakan oleh perangkat ini. Limit data adalah rentang nilai yang dianggap aman untuk parameter monitoring (kejernihan air, suhu air, pH air).",
+                "image": "/images/tutorial/select_limit_data.png"
+              },
+              {
+                "title": " Simpan Perangkat",
+                "description": "Klik tombol 'Simpan' atau 'Tambahkan' untuk menambahkan perangkat. Setelah perangkat ditambahkan, Anda akan melihatnya di daftar perangkat di dashboard.",
+                "image": "/images/tutorial/save_device.png"
+              }
+            ],
+            "image": "/images/tutorial/add_device_with_limit.png"
+          },
+          {
+            "title": "Mengintegrasikan ke Perangkat",
+            "description": "Setelah perangkat ditambahkan, Anda dapat mengintegrasikan limit data yang sesuai untuk memonitor kualitas air. Jika Anda belum memiliki limit data yang sesuai, buat limit data baru terlebih dahulu (lihat Langkah 3: Management Limit Data).",
+            "sub_step": [
+              {
+                "title": " Akses Detail Perangkat",
+                "description": "Akses halaman detail perangkat yang ingin Anda integrasikan.",
+                "image": "/images/tutorial/access_device_details.png"
+              },
+              {
+                "title": " Pilih Limit Data",
+                "description": "Di bagian 'Limit Data' atau 'Parameter Monitoring', Anda akan melihat daftar limit data yang tersedia. Pilih limit data yang sesuai untuk perangkat tersebut dengan mencentang kotak di samping nama limit.",
+                "image": "/images/tutorial/choose_limit_data.png"
+              },
+              {
+                "title": " Simpan Perubahan",
+                "description": "Klik tombol 'Simpan' atau 'Update' untuk menyimpan perubahan. Sekarang, perangkat Anda akan menggunakan limit data yang Anda pilih untuk memantau kualitas air. Anda akan menerima notifikasi jika ada parameter yang berada di luar rentang limit.",
+                "image": "/images/tutorial/save_changes.png"
+              }
+            ],
+            "image": "/images/tutorial/integrate_limit_to_device.png"
+          }
+        ],
+        "button": "Lihat",
+        "glosarium": [
+          {
+            "title": "OTP",
+            "description": "One-Time Password. Kode sandi sekali pakai yang dikirimkan untuk verifikasi."
+          },
+          {
+            "title": "Management Limit",
+            "description": "Proses membuat, mengedit, dan menghapus limit data."
+          },
+          {
+            "title": "Limit Data",
+            "description": "Rentang nilai yang dianggap aman untuk parameter monitoring (suhu, pH, dll.)."
+          },
+          {
+            "title": "Dashboard",
+            "description": "Tampilan utama aplikasi yang memberikan ringkasan informasi."
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "title": "Panduan Konfigurasi WhatsApp dan Telegram",
+        "description": "Pelajari cara mengkonfigurasi notifikasi melalui WhatsApp dan Telegram dengan memasukkan nomor WhatsApp dan ID Telegram Anda.",
+        "step": [
+          {
+            "title": "Navigasi ke Pengaturan Notifikasi",
+            "description": "Buka menu 'Pengaturan' atau 'Profil' di aplikasi. Cari opsi 'Notifikasi' atau 'Pemberitahuan'. Di sini Anda akan menemukan pengaturan untuk mengkonfigurasi notifikasi WhatsApp dan Telegram.",
+            "image": "/images/tutorial/notification_settings.png"
+          },
+          {
+            "title": "Konfigurasi WhatsApp",
+            "description": "Pada bagian WhatsApp, Anda akan melihat kolom untuk memasukkan nomor WhatsApp Anda. Masukkan nomor WhatsApp yang valid dan aktif (dengan kode negara, contoh: +6281234567890). Sistem mungkin akan mengirimkan kode verifikasi ke nomor tersebut. Ikuti petunjuk untuk memverifikasi nomor WhatsApp Anda. Setelah verifikasi berhasil, notifikasi WhatsApp akan aktif.",
+            "image": "/images/tutorial/whatsapp_configuration.png"
+          },
+          {
+            "title": "Konfigurasi Telegram",
+            "description": "Pada bagian Telegram, Anda akan melihat kolom untuk memasukkan ID Telegram Anda.",
+            "sub_step": [
+              {
+                "title": " Cari RawDataBot",
+                "description": "Buka aplikasi Telegram Anda. Cari bot bernama `RawDataBot` di Telegram (atau gunakan tautan yang disediakan di aplikasi).",
+                "image": "/images/tutorial/search_rawdatabot.png"
+              },
+              {
+                "title": " Mulai Percakapan",
+                "description": "Mulai percakapan dengan bot tersebut dengan mengirimkan perintah `/start`.",
+                "image": "/images/tutorial/start_conversation.png"
+              },
+              {
+                "title": " Dapatkan ID Telegram",
+                "description": "Bot akan merespons dengan memberikan informasi akun Telegram Anda, termasuk `id` Anda. Salin ID ini.",
+                "image": "/images/tutorial/get_telegram_id.png"
+              },
+              {
+                "title": " Masukkan ID Telegram",
+                "description": "Kembali ke aplikasi monitoring dan masukkan ID Telegram yang Anda salin ke dalam kolom yang tersedia. Sistem mungkin meminta Anda untuk memberikan izin kepada bot aplikasi untuk mengirimkan notifikasi.",
+                "image": "/images/tutorial/enter_telegram_id.png"
+              }
+            ],
+            "image": "/images/tutorial/telegram_configuration_rawdatabot.png"
+          },
+          {
+            "title": "Menguji Notifikasi",
+            "description": "Setelah konfigurasi, Anda dapat menguji notifikasi dengan mengirimkan pesan tes. Biasanya ada tombol 'Kirim Pesan Tes' di pengaturan notifikasi. Jika notifikasi berhasil dikirim, Anda akan menerima pesan tes di WhatsApp atau Telegram. Jika tidak menerima pesan, periksa kembali konfigurasi dan pastikan nomor WhatsApp dan ID Telegram Anda benar.",
+            "image": "/images/tutorial/test_notifications.png"
+          }
+        ],
+        "button": "Lihat",
+        "glosarium": [
+          {
+            "title": "RawDataBot",
+            "description": "Bot Telegram yang digunakan untuk mendapatkan ID Telegram."
+          },
+          {
+            "title": "Notifikasi",
+            "description": "Pemberitahuan yang dikirimkan melalui WhatsApp atau Telegram."
+          }
+        ]
+      },
+      {
+        "id": "3",
+        "title": "Panduan Instalasi dan Implementasi Sistem IoT Monitoring",
+        "description": "Panduan lengkap tentang aplikasi yang dibutuhkan, alat IoT, implementasi menggunakan software, kode yang disiapkan, dan model 3D (jika ada).",
+        "step": [
+          {
+            "id": "1",
+            "title": "Aplikasi yang Dibutuhkan",
+            "description": "Untuk mengimplementasikan sistem IoT monitoring kualitas air, Anda memerlukan aplikasi dan driver berikut:",
+            "sub_step": [
+              {
+                "title": " IDE Arduino",
+                "description": "Lingkungan pengembangan terintegrasi (IDE) untuk menulis dan mengunggah kode ke mikrokontroler (ESP32).",
+                "image": "/images/tutorial/arduino_ide.png"
+              },
+              {
+                "title": " Driver CP2102",
+                "description": "Driver untuk komunikasi USB-to-Serial antara komputer Anda dan ESP32. Driver ini memungkinkan Anda mengunggah kode dan melihat output debug.",
+                "image": "/images/tutorial/cp2102_driver.png"
+              }
+            ],
+            "image": "/images/tutorial/software_requirements_arduino.png"
+          },
+          {
+            "id": "2",
+            "title": "Alat IoT yang Dibutuhkan",
+            "description": "Berikut adalah daftar alat IoT yang Anda butuhkan:",
+            "sub_step": [
+              {
+                "title": " Arduino ESP32 WROOM 38 PIN",
+                "description": "Mikrokontroler yang akan membaca data dari sensor dan mengirimkannya ke server.",
+                "image": "/images/tutorial/esp32_wroom.png"
+              },
+              {
+                "title": " Turbidity Sensor Water",
+                "description": "Sensor untuk mengukur tingkat kekeruhan air (kejernihan).",
+                "image": "/images/tutorial/turbidity_sensor.png"
+              },
+              {
+                "title": " Resistor 2k Ohm",
+                "description": "Resistor untuk digunakan dalam rangkaian sensor turbidity.",
+                "image": "/images/tutorial/2k_resistor.png"
+              },
+              {
+                "title": " pH Sensor Water (pH 4502C Sensor Probe)",
+                "description": "Sensor untuk mengukur pH air.",
+                "image": "/images/tutorial/ph_sensor.png"
+              },
+              {
+                "title": " LCD 16x2",
+                "description": "Layar LCD untuk menampilkan data sensor secara lokal.",
+                "image": "/images/tutorial/lcd_16x2.png"
+              },
+              {
+                "title": " USB Type-C atau Micro USB",
+                "description": "Kabel untuk menghubungkan ESP32 ke komputer Anda untuk pemrograman dan catu daya.",
+                "image": "/images/tutorial/usb_cable.png"
+              }
+            ],
+            "image": "/images/tutorial/iot_hardware_waterm.png"
+          },
+          {
+            "id": "3",
+            "title": " Download Library dan Upload Kode ke ESP32",
+            "description": "Langkah ini akan memandu Anda menginstal library yang diperlukan dan mengunggah kode ke ESP32.",
+            "sub_step": [
+              {
+                "title": " Download Library",
+                "description": "Download library berikut di Arduino IDE menggunakan Library Manager (Sketch -> Include Library -> Manage Libraries...): `WebSockets` (atau `WebSockets2_Generic`), `DallasTemperature`, `OneWire`, `LiquidCrystal_I2C`, `ArduinoJson`.",
+                "image": "/images/tutorial/library_manager.png"
+              },
+              {
+                "title": " Verifikasi Kode",
+                "description": "Buka kode open-source yang sudah disiapkan (biasanya file `.ino`). Periksa apakah semua library yang dibutuhkan telah di-include di kode.",
+                "image": "/images/tutorial/verify_code.png"
+              },
+              {
+                "title": " Upload Kode",
+                "description": "Hubungkan ESP32 ke komputer Anda menggunakan kabel USB. Pilih board dan port yang sesuai di Arduino IDE (Tools -> Board -> ESP32 Arduino -> ESP32 Dev Module, Tools -> Port -> [Port Serial ESP32]). Klik tombol 'Upload' di Arduino IDE (ikon panah kanan). PENTING: Selama proses upload, tepat sebelum proses mencapai 100%, tekan dan tahan tombol 'BOOT' pada ESP32. Ini akan memaksa ESP32 masuk ke mode bootloader dan menerima kode. Jika upload berhasil, Anda akan melihat pesan 'Done uploading' di console Arduino IDE.",
+                "image": "/images/tutorial/upload_code_esp32_process.png"
+              }
+            ],
+            "image": "/images/tutorial/upload_code_esp32.png"
+          },
+          {
+            "title": " Konfigurasi Jaringan dan Kalibrasi Sensor pH",
+            "description": "Setelah kode diunggah, Anda perlu mengkonfigurasi jaringan WiFi dan melakukan kalibrasi sensor pH.",
+            "sub_step": [
+              {
+                "title": " Hubungkan ke WiFi Waterm_Site",
+                "description": "Setelah ESP32 dijalankan, ESP32 akan membuat jaringan WiFi dengan nama `WATERM_SITE` (atau nama serupa yang ditentukan dalam kode) dengan kata sandi `Watermsite` (atau kata sandi yang ditentukan dalam kode). Hubungkan perangkat Anda (laptop, smartphone) ke jaringan WiFi ini.",
+                "image": "/images/tutorial/connect_watermsite_wifi.png"
+              },
+              {
+                "title": " Akses Webserver",
+                "description": "Buka browser web dan masukkan alamat IP `192.168.4.1` (atau alamat IP yang ditentukan dalam kode). Anda akan mengakses webserver yang berjalan di ESP32.",
+                "image": "/images/tutorial/access_webserver.png"
+              },
+              {
+                "title": " Konfigurasi Jaringan",
+                "description": "Di webserver, Anda akan melihat formulir konfigurasi untuk menghubungkan ESP32 ke jaringan WiFi Anda (jaringan internet yang sebenarnya). Masukkan SSID (nama WiFi) dan kata sandi jaringan WiFi Anda. Setelah dikonfigurasi, ESP32 akan terhubung ke internet.",
+                "image": "/images/tutorial/configure_wifi.png"
+              },
+              {
+                "title": " Kalibrasi Sensor pH",
+                "description": "Kalibrasi sensor pH penting untuk mendapatkan pembacaan yang akurat. Siapkan larutan buffer pH 4 dan pH 7. Celupkan sensor pH ke larutan buffer pH 4. Masukkan voltage (nilai tegangan) yang dibaca oleh sensor pH ke kolom input yang sesuai di webserver. Celupkan sensor pH ke larutan buffer pH 7. Masukkan voltage yang dibaca oleh sensor pH ke kolom input yang sesuai di webserver. Cari nilai yang stabil dengan memutar potensiometer pada modul pH (biasanya ada dua potensiometer: satu untuk offset dan satu untuk slope). Putar potensiometer secara perlahan hingga pembacaan di webserver mendekati nilai pH buffer yang Anda gunakan.",
+                "image": "/images/tutorial/calibrate_ph_sensor_process.png"
+              }
+            ],
+            "image": "/images/tutorial/calibrate_ph_sensor.png"
+          }
+        ],
+        "button": "Lihat",
+        "glosarium": [
+          {
+            "title": "IDE Arduino",
+            "description": "Lingkungan pengembangan terintegrasi untuk Arduino."
+          },
+          {
+            "title": "Driver CP2102",
+            "description": "Driver USB-to-Serial untuk ESP32."
+          },
+          {
+            "title": "ESP32",
+            "description": "Mikrokontroler yang digunakan."
+          },
+          {
+            "title": "Turbidity Sensor",
+            "description": "Sensor untuk mengukur kekeruhan air."
+          },
+          {
+            "title": "pH Sensor",
+            "description": "Sensor untuk mengukur pH air."
+          },
+          {
+            "title": "LCD 16x2",
+            "description": "Layar LCD dengan 16 kolom dan 2 baris."
+          },
+          {
+            "title": "Library",
+            "description": "Kumpulan kode yang dapat digunakan kembali."
+          },
+          {
+            "title": "Webserver",
+            "description": "Perangkat lunak yang melayani permintaan halaman web."
+          },
+          {
+            "title": "Voltage",
+            "description": "Tegangan listrik."
+          },
+          {
+            "title": "Module",
+            "description": "Komponen elektronik terpisah dengan fungsi tertentu."
+          },
+          {
+            "title": "Potensiometer",
+            "description": "Resistor variabel yang digunakan untuk menyesuaikan tegangan."
+          },
+          {
+            "title": "Buffer pH",
+            "description": "Larutan yang digunakan untuk kalibrasi sensor pH."
+          }
+        ]
+      },
+      {
+        "id": "4",
+        "title": "Panduan Integrasi Download Report (Belum Tersedia)",
+        "description": "Panduan untuk mengunduh laporan dan menganalisis data Anda dengan lebih mudah. (Fitur ini belum tersedia, akan segera hadir).",
+        "step": [
+          {
+            "id": "1",
+            "title": " (Fitur Belum Tersedia)",
+            "description": "Fitur download report belum tersedia saat ini. Kami sedang dalam proses pengembangan fitur ini. Nantikan update selanjutnya.",
+            "image": "/"
+          },
+          {
+            "id": "2",
+            "title": "(Fitur Belum Tersedia)",
+            "description": "Informasi lebih lanjut tentang cara menggunakan fitur download report akan tersedia setelah fitur ini diluncurkan.",
+            "image": "/"
+          },
+          {
+            "id": "3",
+            "title": "(Fitur Belum Tersedia)",
+            "description": "Kami akan memberikan panduan lengkap dan tutorial video setelah fitur download report siap digunakan.",
+            "image": "/"
+          },
+          {
+            "id": "4",
+            "title": "(Fitur Belum Tersedia)",
+            "description": "Terima kasih atas kesabaran Anda. Kami akan mengumumkan peluncuran fitur ini secepatnya.",
+            "image": "/"
+          }
+        ],
+        "button": "Lihat",
+        "glosarium": []
+      }
+    ]
+  },
+  "signIn": {
+    "title": "Selamat Datang Kembali",
+    "description": "Masuk ke akun Anda untuk melanjutkan dan mengakses semua fitur terbaik kami.",
+    "rememberMe": "Ingat saya?",
+    "forgotPassword": "Lupa kata sandi?",
+    "button": "Masuk",
+    "orSignIn": "Atau masuk dengan",
+    "haventAccount": "Belum punya akun?",
+    "errorAccount": "Akun belum terdaftar",
+    "signUp": "Daftar",
+    "fields": {
+      "email": {
+        "label": "Email",
+        "placeholder": "Masukkan email",
+        "validator": "Alamat email tidak valid"
+      },
+      "password": {
+        "label": "Kata Sandi",
+        "placeholder": "Masukkan kata sandi",
+        "validator": {
+          "min": "Kata sandi minimal harus 8 karakter",
+          "uppercase": "Kata sandi harus mengandung setidaknya satu huruf kapital",
+          "lowercase": "Kata sandi harus mengandung setidaknya satu huruf kecil",
+          "number": "Kata sandi harus mengandung setidaknya satu angka",
+          "special": "Kata sandi harus mengandung setidaknya satu karakter khusus"
+        }
+      }
+    }
+  },
+  "signUp": {
+    "title": "Daftar Akun Baru",
+    "description": "Buat akun baru untuk memulai dan mengakses semua fitur kami.",
+    "success": "Berhasil mendaftar akun",
+    "delay": "Halaman akan dialihkan dalam ",
+    "button": {
+      "next": "Selanjutnya",
+      "signUp": "Daftar"
+    },
+    "signIn": "Masuk",
+    "orSignUp": "Atau daftar dengan",
+    "haveAccount": "Sudah mempunyai akun?",
+    "fields": {
+      "name": {
+        "label": "Nama",
+        "placeholder": "Masukkan nama",
+        "validator": "Nama minimal harus terdiri dari 2 karakter"
+      },
+      "noWhatsapp": {
+        "label": "Nomor Whatsapp",
+        "placeholder": "Masukkan nomor whatsapp",
+        "validator": {
+          "min": "Nomor Whatsapp minimal harus 10 karakter",
+          "format": "Nomor WhatsApp harus diawali dengan 08 dan hanya berisi angka",
+          "max": "Nomor WhatsApp maksimal harus 13 karakter"
+        }
+      },
+      "idTelegram": {
+        "label": "Id Telegram",
+        "placeholder": "Masukan Id Telegram",
+        "validator": ""
+      },
+      "email": {
+        "label": "Surel",
+        "placeholder": "surelAnda@contoh.com",
+        "validator": "Surel tidak boleh kosong"
+      },
+      "password": {
+        "label": "Kata Sandi",
+        "placeholder": "Masukkan kata sandi",
+        "passwordStrength": "Kekuatan Kata Sandi",
+        "validator": {
+          "min": "Kata sandi minimal harus 8 karakter",
+          "uppercase": "Kata sandi harus mengandung setidaknya satu huruf kapital",
+          "lowercase": "Kata sandi harus mengandung setidaknya satu huruf kecil",
+          "number": "Kata sandi harus mengandung setidaknya satu angka",
+          "special": "Kata sandi harus mengandung setidaknya satu karakter khusus"
+        }
+      },
+      "confirmPassword": {
+        "label": "Konfirmasi Kata Sandi",
+        "placeholder": "Masukkan konfirmasi kata sandi",
+        "validator": "Konfirmasi kata sandi tidak cocok"
+      }
+    },
+    "signUp": "Daftar Sekarang"
+  },
+  "resetPasswordSuccess": {
+    "title": "Atur Ulang Kata Sandi Berhasil",
+    "description": "Kata sandi Anda telah berhasil diatur ulang. Silakan masuk dengan kata sandi baru Anda."
+  },
+  "save": "Simpan",
+  "cancel": "Batal",
+  "error": {
+    "notFound": "Oops! Halaman yang Anda cari tidak dapat ditemukan.",
+    "serverError": "Ada masalah dengan server kami. Kami sedang memperbaikinya, coba lagi sebentar."
+  },
+  "confirmation": {
+    "delete": "Anda yakin ingin menghapus item ini? Tindakan ini tidak bisa dibatalkan.",
+    "yes": "Ya",
+    "no": "Tidak"
+  },
+  "monitor": {
+    "status": "Status",
+    "active": "Aktif",
+    "inactive": "Tidak Aktif",
+    "loading": "Memuat..."
+  },
+  "user": {
+    "name": "Nama",
+    "email": "Email",
+    "role": "Peran"
+  },
+  "common": {
+    "title": "Pusat Bantuan Platform Pemantauan",
+    "subtitle": "Temukan jawaban untuk pertanyaan umum atau hubungi tim dukungan kami untuk bantuan lebih lanjut",
+    "loading": "Memuat...",
+    "submit": "Kirim",
+    "cancel": "Batal",
+    "reset": "Bersihkan",
+    "required": "Wajib diisi",
+    "optional": "opsional",
+    "search": "Cari",
+    "noResults": "Tidak ada hasil ditemukan",
+    "learnMore": "Pelajari lebih lanjut",
+    "back": "Kembali",
+    "next": "Selanjutnya"
+  },
+  "contactForm": {
+    "title": "Hubungi Dukungan",
+    "subtitle": "Silakan isi formulir di bawah ini dengan detail pertanyaan atau masalah Anda",
+    "fields": {
+      "name": {
+        "label": "Nama",
+        "placeholder": "Nama Anda",
+        "validator": "Nama wajib diisi."
+      },
+      "email": {
+        "label": "Surel",
+        "placeholder": "surelAnda@contoh.com",
+        "validator": "Surel tidak boleh kosong"
+      },
+      "topic": {
+        "label": "Topik",
+        "placeholder": "Pilih topik yang sesuai",
+        "options": {
+          "general": "Pertanyaan Seputar Aplikasi",
+          "iot": "Perangkat IoT",
+          "notifications": "Pengaturan Pemberitahuan",
+          "fish": "Pemantauan Kolam Ikan",
+          "billing": "Pembayaran & Berlangganan",
+          "technical": "Bantuan Teknis"
+        },
+        "validator": "Topik harus dipilih"
+      },
+      "priority": {
+        "label": "Tingkat Kepentingan",
+        "placeholder": "Pilih tingkat kepentingan",
+        "options": {
+          "low": "Tidak Mendesak",
+          "medium": "Cukup Mendesak",
+          "high": "Sangat Mendesak",
+          "urgent": "Darurat"
+        },
+        "validator": "Tingkat kepentingan harus dipilih"
+      },
+      "message": {
+        "label": "Pesan",
+        "placeholder": "Silakan jelaskan pertanyaan atau masalah Anda secara detail...",
+        "validator": "Pesan wajib diisi."
+      },
+      "attachments": {
+        "label": "Lampiran (opsional)",
+        "description": "Anda dapat melampirkan tangkapan layar, log, atau file relevan lainnya (maks 5MB per file)",
+        "validator": "Lampiran harus berukuran 5MB atau lebih kecil."
+      }
+    },
+    "buttons": {
+      "submit": "Kirim Pesan",
+      "reset": "Bersihkan Formulir",
+      "sending": "Mengirim..."
+    },
+    "notifications": {
+      "success": "Pesan terkirim",
+      "successDetail": "Kami akan segera menghubungi Anda.",
+      "error": "Gagal mengirim pesan",
+      "errorDetail": "Silakan coba lagi nanti atau hubungi kami melalui telepon."
+    }
+  },
+  "supportOptions": {
+    "liveChat": {
+      "title": "Dukungan Chat Langsung",
+      "description": "Butuh bantuan segera? Tim dukungan kami tersedia untuk chat langsung selama jam kerja.",
+      "button": "Mulai Chat Langsung"
+    },
+    "phone": {
+      "title": "Nomor Telepon Dukungan",
+      "hours": "Senin - Jumat: 08.00 - 17.00 WIB",
+      "number": "+62 812 3456 7890"
+    },
+    "documentation": {
+      "title": "Dokumentasi",
+      "description": "Jelajahi dokumentasi komprehensif kami untuk panduan dan tutorial terperinci.",
+      "button": "Lihat Dokumentasi"
+    },
+    "community": {
+      "title": "Forum Komunitas",
+      "description": "Terhubung dengan pengguna lain dan berbagi pengalaman di forum komunitas kami.",
+      "button": "Gabung Komunitas"
+    }
+  },
+  "faq": {
+    "title": "Pertanyaan yang Sering Diajukan",
+    "subtitle": "Temukan jawaban untuk pertanyaan umum tentang platform pemantauan multi-perangkat kami",
+    "notFound": "Tidak menemukan jawaban yang Anda cari? Silakan gunakan formulir kontak di sebelah kiri.",
+    "categories": {
+      "general": "Umum",
+      "iot": "Kode IoT",
+      "tutorials": "Tutorial",
+      "notifications": "Notifikasi",
+      "monitoring": "Pemantauan"
+    },
+    "questions": {
+      "general": [
+        {
+          "question": "Apa itu platform pemantauan multi-perangkat?",
+          "answer": "Platform kami adalah solusi komprehensif untuk memantau beberapa perangkat di berbagai lokasi geografis. Platform ini menyediakan visualisasi data real-time, peringatan, dan analitik untuk perangkat terhubung Anda, memungkinkan Anda mengelola dan memantau ekosistem IoT Anda dari satu dasbor."
+        },
+        {
+          "question": "Berapa banyak perangkat yang dapat saya pantau secara bersamaan?",
+          "answer": "Platform kami mendukung pemantauan perangkat tanpa batas, tergantung pada paket langganan Anda. Paket dasar memungkinkan hingga 10 perangkat, sementara paket premium menawarkan pemantauan untuk ratusan perangkat di berbagai lokasi."
+        },
+        {
+          "question": "Jenis perangkat apa yang kompatibel dengan platform ini?",
+          "answer": "Platform kami kompatibel dengan berbagai perangkat IoT, termasuk sensor, pengontrol, kamera, dan perangkat keras kustom. Setiap perangkat yang dapat terhubung ke internet dan mengirim data melalui protokol yang kami dukung (MQTT, HTTP, WebSockets) dapat diintegrasikan."
+        },
+        {
+          "question": "Bagaimana cara kerja fitur multi-geolokasi?",
+          "answer": "Platform kami memungkinkan Anda mengatur perangkat berdasarkan lokasi dan melihatnya pada peta interaktif. Anda dapat membuat grup lokasi, mengatur geofence, dan memantau perangkat berdasarkan posisi geografisnya. Ini sangat berguna untuk sistem terdistribusi seperti pemantauan pertanian, penginderaan lingkungan, atau operasi bisnis multi-lokasi."
+        }
+      ],
+      "iot": [
+        {
+          "question": "Bagaimana cara mendapatkan kode IoT untuk perangkat saya?",
+          "answer": "Platform kami menyediakan potongan kode siap pakai untuk berbagai perangkat IoT dan mikrokontroler. Cukup navigasi ke bagian \"Kode IoT\" di dasbor Anda, pilih jenis perangkat Anda (Arduino, ESP8266, ESP32, Raspberry Pi, dll.), dan unduh kode yang telah dikonfigurasi sebelumnya. Anda juga dapat menyesuaikan parameter kode langsung di platform."
+        },
+        {
+          "question": "Bahasa pemrograman apa yang didukung untuk integrasi IoT?",
+          "answer": "Kami menyediakan contoh kode dan pustaka dalam berbagai bahasa termasuk C/C++ (untuk perangkat Arduino dan ESP), Python (untuk Raspberry Pi dan perangkat berbasis Linux lainnya), JavaScript (untuk perangkat berbasis Node.js), dan MicroPython (untuk mikrokontroler yang kompatibel)."
+        },
+        {
+          "question": "Bisakah saya mengintegrasikan perangkat yang sudah ada dengan protokol berbeda?",
+          "answer": "Ya, platform kami mendukung berbagai metode integrasi. Untuk perangkat yang menggunakan protokol standar seperti MQTT, HTTP, atau WebSockets, Anda dapat menggunakan endpoint API kami secara langsung. Untuk protokol proprietary, kami menawarkan solusi gateway yang dapat menerjemahkan antar protokol. Selain itu, platform kami menyediakan integrasi webhook untuk layanan pihak ketiga."
+        },
+        {
+          "question": "Seberapa aman koneksi antara perangkat saya dan platform?",
+          "answer": "Semua komunikasi antara perangkat Anda dan platform kami dienkripsi menggunakan TLS/SSL. Kami menerapkan autentikasi perangkat menggunakan kunci API unik atau sertifikat, dan semua data ditransmisikan dengan aman. Platform kami juga mendukung fitur keamanan tambahan seperti IP whitelist dan autentikasi dua faktor untuk dasbor."
+        }
+      ],
+      "tutorials": [
+        {
+          "question": "Bagaimana cara mengakses tutorial platform?",
+          "answer": "Tutorial tersedia di bagian \"Pusat Pembelajaran\" pada dasbor Anda. Kami menawarkan panduan langkah demi langkah, tutorial video, dan panduan interaktif untuk semua fitur platform. Pengguna baru secara otomatis menerima tur terpandu saat pertama kali masuk, yang dapat diputar ulang kapan saja dari menu Bantuan."
+        },
+        {
+          "question": "Apa saja yang tercakup dalam panduan tur interaktif?",
+          "answer": "Panduan tur interaktif kami memandu Anda melalui fitur-fitur utama platform, termasuk navigasi dasbor, pengaturan perangkat, konfigurasi notifikasi, visualisasi data, dan pembuatan laporan. Tur ini kontekstual, artinya menyesuaikan dengan pengaturan spesifik dan tingkat langganan Anda."
+        },
+        {
+          "question": "Apakah ada tutorial khusus untuk mengatur berbagai jenis pemantauan?",
+          "answer": "Ya, kami menyediakan tutorial khusus untuk berbagai skenario pemantauan, termasuk pemantauan akuakultur, penginderaan lingkungan, pemantauan peralatan industri, dan pertanian cerdas. Setiap tutorial mencakup rekomendasi pengaturan perangkat keras, contoh kode, dan pedoman konfigurasi khusus untuk aplikasi tersebut."
+        },
+        {
+          "question": "Bisakah saya meminta tutorial khusus untuk kasus penggunaan spesifik saya?",
+          "answer": "Pelanggan premium dapat meminta tutorial khusus yang disesuaikan dengan kebutuhan implementasi spesifik mereka. Tim teknis kami akan membuat panduan personal dan bahkan menawarkan sesi virtual one-on-one untuk membantu Anda mengoptimalkan pengaturan pemantauan Anda."
+        }
+      ],
+      "notifications": [
+        {
+          "question": "Bagaimana cara mengatur notifikasi WhatsApp?",
+          "answer": "Untuk mengonfigurasi notifikasi WhatsApp, buka bagian \"Notifikasi\" di dasbor Anda dan pilih \"Tambah Saluran WhatsApp.\" Anda perlu memasukkan nomor telepon yang ingin menerima peringatan dan memverifikasi setiap nomor melalui kode sekali pakai. Sistem kami menggunakan WhatsApp Business API resmi untuk mengirimkan pesan secara andal."
+        },
+        {
+          "question": "Bagaimana cara mengintegrasikan notifikasi Telegram?",
+          "answer": "Untuk notifikasi Telegram, navigasi ke bagian \"Notifikasi\" dan pilih \"Tambah Saluran Telegram.\" Anda perlu memberikan ID pengguna Telegram atau ID grup Anda. Sistem kami akan memandu Anda melalui proses koneksi dengan bot Telegram kami, yang akan mengirimkan notifikasi."
+        },
+        {
+          "question": "Bisakah saya menyesuaikan pesan notifikasi dan frekuensinya?",
+          "answer": "Ya, platform kami menawarkan penyesuaian ekstensif untuk notifikasi. Anda dapat membuat template pesan kustom, mengatur prioritas notifikasi, menentukan jam tenang, dan mengonfigurasi ambang batas peringatan. Untuk setiap jenis peringatan, Anda dapat menentukan saluran mana yang harus menerima notifikasi dan mengatur format pesan yang berbeda untuk setiap saluran."
+        },
+        {
+          "question": "Saluran notifikasi apa lagi yang didukung?",
+          "answer": "Selain WhatsApp dan Telegram, platform kami mendukung notifikasi email, SMS, notifikasi push (melalui aplikasi mobile kami), panggilan suara untuk peringatan penting, integrasi webhook untuk sistem kustom, dan integrasi dengan layanan populer seperti Slack, Microsoft Teams, dan Discord."
+        }
+      ],
+      "monitoring": [
+        {
+          "question": "Bagaimana cara kerja sistem pemantauan ikan?",
+          "answer": "Sistem pemantauan akuakultur kami menggunakan sensor khusus untuk melacak parameter kualitas air (suhu, pH, oksigen terlarut, kadar amonia), pola perilaku ikan, dan metrik pemberian pakan. Platform mengumpulkan data ini secara real-time dan menyediakan analitik untuk mengoptimalkan kesehatan dan pertumbuhan ikan."
+        },
+        {
+          "question": "Bagaimana cara mengatur ambang batas pemantauan ikan?",
+          "answer": "Di bagian \"Pengaturan Pemantauan\", pilih proyek akuakultur Anda dan navigasi ke \"Ambang Batas.\" Di sini, Anda dapat mengatur parameter spesifik untuk setiap nilai yang dipantau. Misalnya, Anda dapat menentukan rentang yang dapat diterima untuk suhu air, kadar oksigen, dan pH. Ketika pembacaan berada di luar rentang ini, sistem akan memicu peringatan berdasarkan preferensi notifikasi Anda."
+        },
+        {
+          "question": "Bisakah sistem memantau berbagai spesies ikan dengan kebutuhan berbeda?",
+          "answer": "Ya, platform kami memungkinkan Anda membuat profil khusus spesies dengan parameter pemantauan yang berbeda. Anda dapat mengatur beberapa zona pemantauan dalam lokasi yang sama, masing-masing dengan ambang batas dan pengaturan peringatan sendiri. Ini sangat berguna untuk fasilitas yang memelihara beberapa spesies dengan kebutuhan lingkungan yang berbeda."
+        },
+        {
+          "question": "Apakah platform menyediakan analitik prediktif untuk kesehatan ikan?",
+          "answer": "Ya, paket premium kami mencakup analitik prediktif yang menggunakan data historis dan pembelajaran mesin untuk meramalkan potensi masalah sebelum menjadi kritis. Sistem dapat memprediksi tren kualitas air, mendeteksi perubahan halus dalam perilaku ikan yang mungkin mengindikasikan penyakit, dan merekomendasikan tindakan pencegahan untuk mempertahankan kondisi optimal untuk operasi akuakultur Anda."
+        },
+        {
+          "question": "Bagaimana cara kerja fitur penghitungan ikan dan estimasi biomassa?",
+          "answer": "Platform kami menggunakan teknologi computer vision melalui kamera bawah air untuk memperkirakan jumlah ikan dan biomassa. Sistem dapat melacak tingkat pertumbuhan dari waktu ke waktu, membantu Anda mengoptimalkan jadwal pemberian pakan dan waktu panen. Fitur ini memerlukan peralatan kamera bawah air yang kompatibel dan tersedia pada paket langganan tingkat lanjut kami."
+        }
+      ]
+    }
+  }
+}
