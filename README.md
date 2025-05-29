@@ -31,7 +31,7 @@ Berikut adalah beberapa tangkapan layar dari antarmuka pengguna Waterm yang menu
 
 Lihat juga demo responsif untuk perangkat seluler:
 
-* `demo_responsive_mobile.png`: Tampilan Waterm di Perangkat Seluler
+* `dashboard_responsive_mobile.png`: Tampilan Waterm di Perangkat Seluler
 
 ---
 
